@@ -1,9 +1,9 @@
 package murach.email;
 
 import java.io.*;
-import javax.mail.MessagingException;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.mail.MessagingException;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
 import murach.business.User;
 import murach.data.UserDB;
