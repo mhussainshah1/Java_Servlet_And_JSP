@@ -1,20 +1,20 @@
 package murach.email;
 
-import java.io.*;
 import jakarta.mail.MessagingException;
-import jakarta.servlet.*;
-import jakarta.servlet.http.*;
-
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import murach.business.User;
 import murach.data.UserDB;
-import murach.util.*;
+import murach.util.MailUtilLocal;
+
+import java.io.IOException;
 
 public class EmailListServlet extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest request,
-            HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         // get current action
         String action = request.getParameter("action");
@@ -61,18 +61,16 @@ public class EmailListServlet extends HttpServlet {
                 request.setAttribute("errorMessage", errorMessage);
                 this.log(
                         "Unable to send email. \n"
-                        + "Here is the email you tried to send: \n"
-                        + "=====================================\n"
-                        + "TO: " + email + "\n"
-                        + "FROM: " + from + "\n"
-                        + "SUBJECT: " + subject + "\n"
-                        + "\n"
-                        + body + "\n\n");
+                                + "Here is the email you tried to send: \n"
+                                + "=====================================\n"
+                                + "TO: " + email + "\n"
+                                + "FROM: " + from + "\n"
+                                + "SUBJECT: " + subject + "\n"
+                                + "\n"
+                                + body + "\n\n");
             }
             url = "/thanks.jsp";
         }
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
+        getServletContext().getRequestDispatcher(url).forward(request, response);
     }
 }

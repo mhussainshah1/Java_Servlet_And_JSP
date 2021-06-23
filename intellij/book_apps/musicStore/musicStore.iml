@@ -19,7 +19,9 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="musicStore" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -38,13 +40,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: jakarta.platform:jakarta.jakartaee-api:9.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: jakarta.servlet:jakarta.servlet-api:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: jakarta.el:jakarta.el-api:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.mail:jakarta.mail:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-dbcp:10.0.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:10.0.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:5.0.0" level="project" />
