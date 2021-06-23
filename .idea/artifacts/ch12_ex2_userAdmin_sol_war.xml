@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch12_ex2_userAdmin_sol:war">
+    <output-path>$PROJECT_DIR$/intellij/ex_solutions/ch12_ex2_userAdmin_sol/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch12_ex2_userAdmin_sol</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="ch12_ex2_userAdmin_sol:war exploded" />
+    </root>
+  </artifact>
+</component>

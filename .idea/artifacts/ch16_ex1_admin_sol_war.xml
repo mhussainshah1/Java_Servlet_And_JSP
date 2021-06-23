@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch16_ex1_admin_sol:war">
+    <output-path>$PROJECT_DIR$/intellij/ex_solutions/ch16_ex1_admin_sol/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch16_ex1_admin_sol</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="ch16_ex1_admin_sol:war exploded" />
+    </root>
+  </artifact>
+</component>

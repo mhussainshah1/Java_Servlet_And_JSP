@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch02email/ch02email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch02email/ch02email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch04_ex1_survey/ch04_ex1_survey.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch04_ex1_survey/ch04_ex1_survey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch04_ex1_survey_sol/ch04_ex1_survey_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch04_ex1_survey_sol/ch04_ex1_survey_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch04email/ch04email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch04email/ch04email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch05_ex1_email/ch05_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch05_ex1_email/ch05_ex1_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch05_ex1_email_sol/ch05_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch05_ex1_email_sol/ch05_ex1_email_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch05_ex2_email/ch05_ex2_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch05_ex2_email/ch05_ex2_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch05_ex2_email_sol/ch05_ex2_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch05_ex2_email_sol/ch05_ex2_email_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch05email/ch05email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch05email/ch05email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch06_ex1_email/ch06_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch06_ex1_email/ch06_ex1_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch06_ex1_email_sol/ch06_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch06_ex1_email_sol/ch06_ex1_email_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch06_ex2_survey/ch06_ex2_survey.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch06_ex2_survey/ch06_ex2_survey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch06_ex2_survey_sol/ch06_ex2_survey_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch06_ex2_survey_sol/ch06_ex2_survey_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch06email/ch06email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch06email/ch06email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch07_ex1_download/ch07_ex1_download.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch07_ex1_download/ch07_ex1_download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch07_ex1_download_sol/ch07_ex1_download_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch07_ex1_download_sol/ch07_ex1_download_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch07_ex2_download/ch07_ex2_download.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch07_ex2_download/ch07_ex2_download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch07_ex2_download_sol/ch07_ex2_download_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch07_ex2_download_sol/ch07_ex2_download_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch07_ex3_cart/ch07_ex3_cart.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch07_ex3_cart/ch07_ex3_cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch07_ex3_cart_sol/ch07_ex3_cart_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch07_ex3_cart_sol/ch07_ex3_cart_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch07cart/ch07cart.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch07cart/ch07cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch07download/ch07download.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch07download/ch07download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch08_ex1_email/ch08_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch08_ex1_email/ch08_ex1_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch08_ex1_email_sol/ch08_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch08_ex1_email_sol/ch08_ex1_email_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch08email/ch08email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch08email/ch08email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch09_ex1_download/ch09_ex1_download.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch09_ex1_download/ch09_ex1_download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch09_ex1_download_sol/ch09_ex1_download_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch09_ex1_download_sol/ch09_ex1_download_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch09_ex2_cart/ch09_ex2_cart.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch09_ex2_cart/ch09_ex2_cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch09_ex2_cart_sol/ch09_ex2_cart_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch09_ex2_cart_sol/ch09_ex2_cart_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch09cart/ch09cart.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch09cart/ch09cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch09email/ch09email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch09email/ch09email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch10_ex1_email/ch10_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch10_ex1_email/ch10_ex1_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch10_ex1_email_sol/ch10_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch10_ex1_email_sol/ch10_ex1_email_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/ch10_ex2_cart.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/ch10_ex2_cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch10_ex2_cart_sol/ch10_ex2_cart_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch10_ex2_cart_sol/ch10_ex2_cart_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch10cart/ch10cart.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch10cart/ch10cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch10email/ch10email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch10email/ch10email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch12_ex1_sqlGateway/ch12_ex1_sqlGateway.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch12_ex1_sqlGateway/ch12_ex1_sqlGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch12_ex1_sqlGateway_sol/ch12_ex1_sqlGateway_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch12_ex1_sqlGateway_sol/ch12_ex1_sqlGateway_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch12_ex2_userAdmin/ch12_ex2_userAdmin.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch12_ex2_userAdmin/ch12_ex2_userAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch12_ex2_userAdmin_sol/ch12_ex2_userAdmin_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch12_ex2_userAdmin_sol/ch12_ex2_userAdmin_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch12email/ch12email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch12email/ch12email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch12sqlGateway/ch12sqlGateway.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch12sqlGateway/ch12sqlGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch13_ex1_email/ch13_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch13_ex1_email/ch13_ex1_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch13_ex1_email_sol/ch13_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex1_email_sol/ch13_ex1_email_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/ch13_ex2_userAdmin.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/ch13_ex2_userAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/ch13_ex2_userAdmin_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/ch13_ex2_userAdmin_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch13email/ch13email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch13email/ch13email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch14_ex1_email/ch14_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch14_ex1_email/ch14_ex1_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch14email/ch14email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch14email/ch14email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch15_ex1_email/ch15_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch15_ex1_email/ch15_ex1_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch15email/ch15email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch15email/ch15email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch16_ex1_admin/ch16_ex1_admin.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch16_ex1_admin/ch16_ex1_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch16_ex1_admin_sol/ch16_ex1_admin_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch16_ex1_admin_sol/ch16_ex1_admin_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch16admin/ch16admin.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch16admin/ch16admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch17_ex1_password/ch17_ex1_password.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch17_ex1_password/ch17_ex1_password.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch17password/ch17password.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch17password/ch17password.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch18_ex1_http/ch18_ex1_http.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch18_ex1_http/ch18_ex1_http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch18_ex1_http_old/ch18_ex1_http_old.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch18_ex1_http_old/ch18_ex1_http_old.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch18http/ch18http.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch18http/ch18http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch19_ex1_cart/ch19_ex1_cart.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch19_ex1_cart/ch19_ex1_cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch19_ex1_cart_sol/ch19_ex1_cart_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch19_ex1_cart_sol/ch19_ex1_cart_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch19cart/ch19cart.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch19cart/ch19cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch20_ex1_download/ch20_ex1_download.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch20_ex1_download/ch20_ex1_download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch20_ex1_download_sol/ch20_ex1_download_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch20_ex1_download_sol/ch20_ex1_download_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch20download/ch20download.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch20download/ch20download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch20security/ch20security.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch20security/ch20security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch21_ex1_email/ch21_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch21_ex1_email/ch21_ex1_email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch21_ex1_email_sol/ch21_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch21_ex1_email_sol/ch21_ex1_email_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch21email/ch21email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch21email/ch21email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch21message/ch21message.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch21message/ch21message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/murach.iml" filepath="$PROJECT_DIR$/.idea/murach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/musicStore/musicStore.iml" filepath="$PROJECT_DIR$/intellij/book_apps/musicStore/musicStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/musicStoreJPA/musicStoreJPA.iml" filepath="$PROJECT_DIR$/intellij/book_apps/musicStoreJPA/musicStoreJPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/testApp/testApp.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/testApp/testApp.iml" />
+    </modules>
+  </component>
+</project>

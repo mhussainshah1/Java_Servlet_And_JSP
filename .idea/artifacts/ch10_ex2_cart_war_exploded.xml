@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ch10_ex2_cart:war exploded">
+    <output-path>$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/target/${project.artifactId}-${project.version}</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ch10_ex2_cart</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ch10_ex2_cart" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/target/${project.artifactId}-${project.version}/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ch10_ex2_cart/web/Web" />
+    </root>
+  </artifact>
+</component>

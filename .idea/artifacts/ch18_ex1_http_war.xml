@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch18_ex1_http:war">
+    <output-path>$PROJECT_DIR$/intellij/ex_starts/ch18_ex1_http/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch18_ex1_http</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="ch18_ex1_http:war exploded" />
+    </root>
+  </artifact>
+</component>

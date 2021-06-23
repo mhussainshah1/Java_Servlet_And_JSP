@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch07_ex2_download_sol:war">
+    <output-path>$PROJECT_DIR$/intellij/ex_solutions/ch07_ex2_download_sol/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch07_ex2_download_sol</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="ch07_ex2_download_sol:war exploded" />
+    </root>
+  </artifact>
+</component>

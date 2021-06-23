@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch15_ex1_email:war">
+    <output-path>$PROJECT_DIR$/intellij/ex_starts/ch15_ex1_email/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch15_ex1_email</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="ch15_ex1_email:war exploded" />
+    </root>
+  </artifact>
+</component>
