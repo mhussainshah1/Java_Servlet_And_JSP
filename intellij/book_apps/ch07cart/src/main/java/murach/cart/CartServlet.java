@@ -10,14 +10,13 @@ import murach.business.Cart;
 import murach.business.LineItem;
 import murach.business.Product;
 import murach.data.ProductIO;
+
 import java.io.IOException;
 
 public class CartServlet extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest request,
-                          HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String url = "/index.jsp";
         ServletContext sc = getServletContext();
@@ -71,7 +70,6 @@ public class CartServlet extends HttpServlet {
             url = "/checkout.jsp";
         }
 
-        sc.getRequestDispatcher(url)
-                .forward(request, response);
+        sc.getRequestDispatcher(url).forward(request, response);
     }
 }

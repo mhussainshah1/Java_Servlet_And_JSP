@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ch07download:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="925bccc9-554a-47b8-bb23-ab81aa025c5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__jakarta_el_jakarta_el_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch07download_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch07download_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_el_jakarta_el_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/8601_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/delete_cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/jr01_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/pf01_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/pf02_download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/view_cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/artifacts/ch07_ex1_download_sol_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/artifacts/ch07_ex1_download_sol_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__jakarta_el_jakarta_el_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/artifacts/ch07_ex2_download_sol_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/artifacts/ch07_ex2_download_sol_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__jakarta_el_jakarta_el_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/target/ch07_ex2_download_sol-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_sol_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_sol_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_sol_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_sol_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_sol_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_sol_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_sol_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_sol_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07cart_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07cart_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07cart_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07cart_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07download_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07download_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07download_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07download_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07cart/.idea/artifacts/ch07cart_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/.idea/artifacts/ch07cart_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07cart/ch07cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/ch07cart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07cart/src/main/java/murach/cart/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/src/main/java/murach/cart/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07cart/src/main/java/murach/data/ProductIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/src/main/java/murach/data/ProductIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch07download.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/murach/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/download/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/util/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/ch07_ex1_download_sol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/ch07_ex1_download_sol.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/src/main/java/murach/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/src/main/java/murach/download/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/src/main/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/src/main/java/murach/util/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/ch07_ex2_download_sol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/ch07_ex2_download_sol.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/business/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/business/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/business/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/data/ProductIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/data/ProductIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/data/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/data/UserIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/download/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/util/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/8601_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/WEB-INF/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/WEB-INF/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/delete_cookies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/jr01_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/pf01_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/pf02_download.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/view_cookies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1uKjWvOEd7XBiVZCYrTfKAMkpSj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.0.6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.6" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ch07download:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ch07download" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f5a29e30-c945-4e3c-8dca-8b7662609daa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49330" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ch07download:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="925bccc9-554a-47b8-bb23-ab81aa025c5d" name="Default Changelist" comment="" />
+      <created>1624421211364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624421211364</updated>
+      <workItem from="1624421212701" duration="816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

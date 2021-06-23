@@ -1,21 +1,18 @@
 package murach.data;
 
-import java.io.*;
-import java.util.*;
-
 import murach.business.User;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 public class UserIO {
 
     public static boolean add(User user, String filepath) {
         try {
             File file = new File(filepath);
-            PrintWriter out = new PrintWriter(
-                    new FileWriter(file, true));
-            out.println(user.getEmail() + "|"
-                    + user.getFirstName() + "|"
-                    + user.getLastName());
-
+            PrintWriter out = new PrintWriter(new FileWriter(file, true));
+            out.println(user.getEmail() + "|" + user.getFirstName() + "|" + user.getLastName());
             out.close();
             return true;
         } catch (IOException e) {

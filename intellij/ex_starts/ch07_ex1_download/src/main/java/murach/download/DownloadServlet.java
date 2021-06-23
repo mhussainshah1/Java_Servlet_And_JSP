@@ -1,19 +1,18 @@
 package murach.download;
 
-import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
-
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.*;
 import murach.business.User;
 import murach.data.UserIO;
 import murach.util.CookieUtil;
 
+import java.io.IOException;
+
 public class DownloadServlet extends HttpServlet {
 
     @Override
-    public void doGet(HttpServletRequest request,
-            HttpServletResponse response)
-            throws IOException, ServletException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         // get current action
         String action = request.getParameter("action");
@@ -34,18 +33,14 @@ public class DownloadServlet extends HttpServlet {
         }
 
         // forward to the view
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
+        getServletContext().getRequestDispatcher(url).forward(request, response);
     }
 
     @Override
-    public void doPost(HttpServletRequest request,
-            HttpServletResponse response)
-            throws IOException, ServletException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         String action = request.getParameter("action");
-        
+
         // perform action and set URL to appropriate page
         String url = "/index.jsp";
         if (action.equals("registerUser")) {
@@ -53,13 +48,10 @@ public class DownloadServlet extends HttpServlet {
         }
 
         // forward to the view
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
+        getServletContext().getRequestDispatcher(url).forward(request, response);
     }
 
-    private String checkUser(HttpServletRequest request,
-            HttpServletResponse response) {
+    private String checkUser(HttpServletRequest request, HttpServletResponse response) {
 
         String productCode = request.getParameter("productCode");
         HttpSession session = request.getSession();
@@ -70,13 +62,13 @@ public class DownloadServlet extends HttpServlet {
         // if User object doesn't exist, check email cookie
         if (user == null) {
             Cookie[] cookies = request.getCookies();
-            String emailAddress = 
-                CookieUtil.getCookieValue(cookies, "emailCookie");
+            String emailAddress =
+                    CookieUtil.getCookieValue(cookies, "emailCookie");
 
             // if cookie doesn't exist, go to Registration page
             if (emailAddress == null || emailAddress.equals("")) {
                 url = "/register.jsp";
-            } 
+            }
             // if cookie exists, create User object and go to Downloads page
             else {
                 ServletContext sc = getServletContext();
@@ -85,7 +77,7 @@ public class DownloadServlet extends HttpServlet {
                 session.setAttribute("user", user);
                 url = "/" + productCode + "_download.jsp";
             }
-        } 
+        }
         // if User object exists, go to Downloads page
         else {
             url = "/" + productCode + "_download.jsp";
@@ -93,10 +85,8 @@ public class DownloadServlet extends HttpServlet {
         return url;
     }
 
-    private String registerUser(HttpServletRequest request,
-            HttpServletResponse response) {
-
-         // get the user data
+    private String registerUser(HttpServletRequest request, HttpServletResponse response) {
+        // get the user data
         String email = request.getParameter("email");
         String firstName = request.getParameter("firstName");
         String lastName = request.getParameter("lastName");
@@ -126,11 +116,9 @@ public class DownloadServlet extends HttpServlet {
         String productCode = (String) session.getAttribute("productCode");
         String url = "/" + productCode + "_download.jsp";
         return url;
-   }
+    }
 
-    private String deleteCookies(HttpServletRequest request,
-            HttpServletResponse response) {
-
+    private String deleteCookies(HttpServletRequest request, HttpServletResponse response) {
         Cookie[] cookies = request.getCookies();
         for (Cookie cookie : cookies) {
             cookie.setMaxAge(0); //delete the cookie
