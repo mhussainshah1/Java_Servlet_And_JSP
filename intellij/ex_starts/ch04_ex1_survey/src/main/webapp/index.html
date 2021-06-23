@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Murach's Java Servlets and JSP</title>
+    <link href="styles/survey.css" rel="stylesheet">
+</head>
+<body>
+<img alt="Murach Logo" src="images/murachlogo.jpg" width="100">
+<form action="survey" method="post">
+    <h1>Survey</h1>
+    <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+
+    <h2>Your information:</h2>
+    <label for="firstname">First Name</label>
+    <input id="firstname" name="firstName" required type="text"><br>
+
+    <label for="lastname">Last Name</label>
+    <input id="lastname" name="lastName" required type="text"><br>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" required type="email"><br>
+
+    <label for="birthday">Date Of Birth </label>
+    <input id="birthday" name="birthday" required type="date"><br>
+
+    <h2>How did you hear about us?</h2>
+    <p><input checked name="heardFrom" type=radio value="Search Engine">Search engine
+        <input name="heardFrom" type=radio value="Friend">Word of mouth
+        <input name="heardFrom" type=radio value="Other">Other
+        <input name="heardFrom" type=radio value="Social Media">Social Media
+    </p>
+
+    <h2>Would you like to receive announcements about new CDs and special offers?</h2>
+    <p><input name="wantsUpdates" type="checkbox">YES, I'd like that.</p>
+    <p><input name="emailOK" type="checkbox">YES, please send me email announcements</p>
+    <p>Please contact me by:
+        <select name="contactVia">
+            <option selected value="Both">Email or postal mail</option>
+            <option value="Email">Email only</option>
+            <option value="Postal Mail">Postal mail only</option>
+        </select>
+    </p>
+    <input type=submit value="Submit">
+</form>
+</body>
+</html>

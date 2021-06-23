@@ -1,0 +1,19 @@
+# Project exclude paths
+/servlet_and_jsp/intellij/book_apps/ch02email/target/
+/servlet_and_jsp/intellij/book_apps/ch04email/target/
+/servlet_and_jsp/intellij/book_apps/ch06email/target/
+/servlet_and_jsp/intellij/book_apps/ch07cart/target/
+/servlet_and_jsp/intellij/book_apps/ch10email/target/
+/servlet_and_jsp/intellij/book_apps/ch12email/target/
+/servlet_and_jsp/intellij/book_apps/JakartaEE9Demo/target/
+/servlet_and_jsp/intellij/book_apps/musicStore/target/
+/servlet_and_jsp/intellij/ex_solutions/ch04_ex1_survey_sol/target/
+/servlet_and_jsp/intellij/ex_solutions/ch05_ex1_email_sol/target/
+/servlet_and_jsp/intellij/ex_solutions/ch05_ex2_email_sol/target/
+/servlet_and_jsp/intellij/ex_solutions/ch06_ex1_email_sol/target/
+/servlet_and_jsp/intellij/ex_solutions/ch06_ex2_survey_sol/target/
+/servlet_and_jsp/intellij/ex_starts/ch04_ex1_survey/target/
+/servlet_and_jsp/intellij/ex_starts/ch05_ex1_email/target/
+/servlet_and_jsp/intellij/ex_starts/ch05_ex2_email/target/
+/servlet_and_jsp/intellij/ex_starts/ch06_ex1_email/target/
+/servlet_and_jsp/intellij/ex_starts/ch06_ex2_survey/target/
