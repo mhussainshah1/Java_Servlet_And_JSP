@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/jakarta/servlet/jakarta.servlet-api/5.0.0/jakarta.servlet-api-5.0.0-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../java/tomcat-10.0.6/src/java" />
     </SOURCES>
   </library>
 </component>

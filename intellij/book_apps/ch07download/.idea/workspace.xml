@@ -10,129 +10,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="925bccc9-554a-47b8-bb23-ab81aa025c5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__jakarta_el_jakarta_el_api_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07cart/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch07download_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch07download_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_el_jakarta_el_api_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/8601_download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/delete_cookies.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/jr01_download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/pf01_download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/pf02_download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/view_cookies.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/artifacts/ch07_ex1_download_sol_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/artifacts/ch07_ex1_download_sol_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__jakarta_el_jakarta_el_api_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/artifacts/ch07_ex2_download_sol_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/artifacts/ch07_ex2_download_sol_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__jakarta_el_jakarta_el_api_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/target/ch07_ex2_download_sol-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_sol_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_sol_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_sol_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_sol_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_sol_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_sol_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_sol_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_sol_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07cart_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07cart_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07cart_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07cart_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07download_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07download_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07download_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07download_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch07cart/.idea/artifacts/ch07cart_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/.idea/artifacts/ch07cart_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12email/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex1_download_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch07_ex2_download_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch14email_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch14email_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch14email_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch14email_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/murach.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/murach.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch06email/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch06email/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07cart/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ch07cart/ch07cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/ch07cart.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ch07cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch07cart/src/main/java/murach/cart/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/src/main/java/murach/cart/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch07cart/src/main/java/murach/data/ProductIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/src/main/java/murach/data/ProductIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07cart/target/ch07cart-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07cart/target/ch07cart-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch07download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch07download.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/download/DownloadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/util/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12email/ch12email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12email/ch12email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/musicStoreJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/musicStoreJPA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/ch07_ex1_download_sol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/ch07_ex1_download_sol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/src/main/java/murach/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/src/main/java/murach/download/DownloadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/src/main/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex1_download_sol/src/main/java/murach/util/CookieUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/ch07_ex2_download_sol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/ch07_ex2_download_sol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/business/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/business/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/business/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/data/ProductIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/data/ProductIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/data/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/data/UserIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/download/DownloadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/src/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/java/murach/util/CookieUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/8601_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/8601_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/WEB-INF/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/WEB-INF/products.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/delete_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/delete_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/jr01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/jr01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/pf01_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/pf01_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/pf02_download.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/pf02_download.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch07download-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/webapp/view_cookies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch07_ex2_download_sol/main/src/webapp/view_cookies.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch14email/web/WEB-INF/lib/javax.mail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/src/java/music/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/src/java/music/controllers/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/src/java/music/util/MailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/src/java/music/util/MailUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/web/WEB-INF/lib/javax.mail.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,23 +74,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 10.0.6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.6" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -278,6 +181,9 @@
       <option name="presentableId" value="Default" />
       <updated>1624421211364</updated>
       <workItem from="1624421212701" duration="816000" />
+      <workItem from="1625322856951" duration="863000" />
+      <workItem from="1625325288205" duration="5454000" />
+      <workItem from="1625352761550" duration="1177000" />
     </task>
     <servers />
   </component>
@@ -294,5 +200,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

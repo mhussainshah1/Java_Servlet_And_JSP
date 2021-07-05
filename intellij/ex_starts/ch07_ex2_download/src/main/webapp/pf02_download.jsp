@@ -18,11 +18,11 @@
 </tr>
 <tr>
     <td>Neon Lights</td>
-    <td><a href="/musicStore/sound/${productCode}/neon.mp3">MP3</a></td>
+    <td><a href="/musicStore/sound/${product.code}/neon.mp3">MP3</a></td>
 </tr>
 <tr>
     <td>Tank Hill</td>
-    <td><a href="/musicStore/sound/${productCode}/tank.mp3">MP3</a></td>
+    <td><a href="/musicStore/sound/${product.code}/tank.mp3">MP3</a></td>
 </tr>
 </table>
 

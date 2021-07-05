@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="${project.artifactId}-${project.version}.war">
+    <root id="archive" name="musicStore-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="musicStore:war exploded" />
     </root>
   </artifact>

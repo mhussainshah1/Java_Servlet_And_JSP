@@ -1,7 +1,7 @@
 package music.controllers;
 
 import java.io.IOException;
-import javax.mail.MessagingException;
+import jakarta.mail.MessagingException;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 

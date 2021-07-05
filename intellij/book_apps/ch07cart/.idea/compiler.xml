@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ch07cart" target="1.8" />
+      <module name="ch07cart" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>

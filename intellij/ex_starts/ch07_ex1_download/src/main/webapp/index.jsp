@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/main.css" type="text/css"/>
 </head>
 <body>
-
+<p> userEmail: ${cookie.userEmail.value}</p>
 <h1>List of albums</h1>
 
 <p>
