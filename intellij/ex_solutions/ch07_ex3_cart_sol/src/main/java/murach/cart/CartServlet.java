@@ -5,8 +5,8 @@ import murach.business.LineItem;
 import murach.business.Cart;
 import murach.business.Product;
 import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
 
 public class CartServlet extends HttpServlet {

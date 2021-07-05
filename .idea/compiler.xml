@@ -23,6 +23,7 @@
         <module name="ch09cart" />
         <module name="testApp" />
         <module name="ch07download" />
+        <module name="ch07_ex1_download_sol" />
         <module name="ch10_ex1_email_sol" />
         <module name="ch13_ex2_userAdmin" />
         <module name="ch05_ex2_email" />
@@ -102,7 +103,7 @@
       <module name="ch07_ex2_download_sol" target="16" />
       <module name="ch07_ex3_cart" target="16" />
       <module name="ch07_ex3_cart_sol" target="16" />
-      <module name="ch07cart" target="1.8" />
+      <module name="ch07cart" target="16" />
       <module name="ch07download" target="16" />
       <module name="ch08_ex1_email" target="16" />
       <module name="ch08_ex1_email_sol" target="16" />
