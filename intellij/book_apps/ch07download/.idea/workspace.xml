@@ -10,13 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="925bccc9-554a-47b8-bb23-ab81aa025c5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch08_ex1_email_sol_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch08_ex1_email_sol_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch08_ex1_email_sol_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch08_ex1_email_sol_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch08_ex1_email_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch08_ex1_email_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch08_ex1_email_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch08_ex1_email_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch08_ex1_email_sol/ch08_ex1_email_sol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch08_ex1_email_sol/ch08_ex1_email_sol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch08_ex1_email/ch08_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch08_ex1_email/ch08_ex1_email.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch09cart/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch09cart/ch09cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch09cart/ch09cart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch06email" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -167,6 +165,7 @@
       <workItem from="1625325288205" duration="5454000" />
       <workItem from="1625352761550" duration="1177000" />
       <workItem from="1625975249375" duration="129000" />
+      <workItem from="1627009838044" duration="13000" />
     </task>
     <servers />
   </component>
