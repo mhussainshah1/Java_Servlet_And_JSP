@@ -1,33 +1,30 @@
 package murach.data;
 
+import murach.business.User;
+
 import java.io.*;
 import java.util.*;
-import murach.business.User;
 
 public class UserIO {
 
     public static void addRecord(User user, String filename) throws IOException {
-        File file = new File(filename);
-        PrintWriter out = new PrintWriter(
-                new FileWriter(file, true));
-        out.println(user.getEmail() + "|"
-                + user.getFirstName() + "|"
-                + user.getLastName());
+        var file = new File(filename);
+        PrintWriter out = new PrintWriter(new FileWriter(file, true));
+        out.println(user.getEmail() + "|" + user.getFirstName() + "|" + user.getLastName());
         out.close();
     }
 
     public static User getUser(String emailAddress, String filename) throws IOException {
-        File file = new File(filename);
-        BufferedReader in = new BufferedReader(
-                new FileReader(file));
-        User user = new User();
-        String line = in.readLine();
+        var file = new File(filename);
+        var in = new BufferedReader(new FileReader(file));
+        var user = new User();
+        var line = in.readLine();
         while (line != null) {
-            StringTokenizer t = new StringTokenizer(line, "|");
-            String email = t.nextToken();
+            var token = new StringTokenizer(line, "|");
+            var email = token.nextToken();
             if (email.equalsIgnoreCase(emailAddress)) {
-                String firstName = t.nextToken();
-                String lastName = t.nextToken();
+                var firstName = token.nextToken();
+                var lastName = token.nextToken();
                 user.setEmail(emailAddress);
                 user.setFirstName(firstName);
                 user.setLastName(lastName);
@@ -38,18 +35,17 @@ public class UserIO {
         return user;
     }
 
-    public static ArrayList<User> getUsers(String filename) throws IOException {
-        ArrayList<User> users = new ArrayList<User>();
-        BufferedReader in = new BufferedReader(
-                new FileReader(filename));
-        String line = in.readLine();
+    public static List<User> getUsers(String filename) throws IOException {
+        List<User> users = new ArrayList<>();
+        var in = new BufferedReader(new FileReader(filename));
+        var line = in.readLine();
         while (line != null) {
             try {
-                StringTokenizer t = new StringTokenizer(line, "|");
-                String emailAddress = t.nextToken();
-                String firstName = t.nextToken();
-                String lastName = t.nextToken();
-                User user = new User(firstName, lastName, emailAddress);
+                var token = new StringTokenizer(line, "|");
+                var emailAddress = token.nextToken();
+                var firstName = token.nextToken();
+                var lastName = token.nextToken();
+                var user = new User(firstName, lastName, emailAddress);
                 users.add(user);
                 line = in.readLine();
             } catch (NoSuchElementException e) {
@@ -60,18 +56,17 @@ public class UserIO {
         return users;
     }
 
-    public static HashMap<String, User> getUsersMap(String filename) throws IOException {
-        HashMap<String, User> users = new HashMap<String, User>();
-        BufferedReader in = new BufferedReader(
-                new FileReader(filename));
-        String line = in.readLine();
+    public static Map<String, User> getUsersMap(String filename) throws IOException {
+        Map<String, User> users = new HashMap<>();
+        var in = new BufferedReader(new FileReader(filename));
+        var line = in.readLine();
         while (line != null) {
             try {
-                StringTokenizer t = new StringTokenizer(line, "|");
-                String emailAddress = t.nextToken();
-                String firstName = t.nextToken();
-                String lastName = t.nextToken();
-                User user = new User(firstName, lastName, emailAddress);
+                var token = new StringTokenizer(line, "|");
+                var emailAddress = token.nextToken();
+                var firstName = token.nextToken();
+                var lastName = token.nextToken();
+                var user = new User(firstName, lastName, emailAddress);
                 users.put(emailAddress, user);
                 line = in.readLine();
             } catch (NoSuchElementException e) {

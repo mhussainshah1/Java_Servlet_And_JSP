@@ -12,13 +12,10 @@ import murach.data.UserIO;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 public class EmailListServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        HttpSession session = request.getSession();
 
         // get current action
         String action = request.getParameter("action");
@@ -42,7 +39,7 @@ public class EmailListServlet extends HttpServlet {
             UserDB.insert(user);
             
             // set User object in request object and set URL
-            session.setAttribute("user", user);
+            request.setAttribute("user", user);
             url = "/thanks.jsp";   // the "thanks" page
         }
         
@@ -52,7 +49,8 @@ public class EmailListServlet extends HttpServlet {
 
         // create users list and store it in the session
         String path = getServletContext().getRealPath("/WEB-INF/EmailList.txt");
-        List<User> users = UserIO.getUsers(path);
+        ArrayList<User> users = UserIO.getUsers(path);
+        HttpSession session = request.getSession();
         session.setAttribute("users", users);
 
         // forward request and response objects to specified URL
