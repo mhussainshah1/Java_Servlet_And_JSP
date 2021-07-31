@@ -3,11 +3,13 @@
     <output-path>$PROJECT_DIR$/intellij/ex_starts/ch06_ex2_survey/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>ch06_ex2_survey</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="${project.artifactId}-${project.version}.war">
+    <root id="archive" name="ch06_ex2_survey-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ch06_ex2_survey:war exploded" />
     </root>
   </artifact>

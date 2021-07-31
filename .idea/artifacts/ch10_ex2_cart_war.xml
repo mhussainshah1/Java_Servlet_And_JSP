@@ -3,11 +3,13 @@
     <output-path>$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>ch10_ex2_cart</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="${project.artifactId}-${project.version}.war">
+    <root id="archive" name="Unknown-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ch10_ex2_cart:war exploded" />
     </root>
   </artifact>

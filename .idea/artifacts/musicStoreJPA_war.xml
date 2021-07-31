@@ -3,11 +3,13 @@
     <output-path>$PROJECT_DIR$/intellij/book_apps/musicStoreJPA/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>musicStoreJPA</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="${project.artifactId}-${project.version}.war">
+    <root id="archive" name="musicStoreJPA-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="musicStoreJPA:war exploded" />
     </root>
   </artifact>

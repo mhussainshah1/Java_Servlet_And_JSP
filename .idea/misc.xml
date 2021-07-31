@@ -145,7 +145,6 @@
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch21_ex1_email_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch04_ex1_survey_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch06_ex2_survey_sol/pom.xml" />
-        <option value="$PROJECT_DIR$/intellij/ex_solutions/ch09_ex1_download_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch20_ex1_download_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch12_ex2_userAdmin_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/pom.xml" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch07_ex2_download_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch07download/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch07_ex1_download_sol/pom.xml" />
+        <option value="$PROJECT_DIR$/intellij/ex_solutions/ch09_ex1_download_sol/pom.xml" />
       </list>
     </option>
   </component>

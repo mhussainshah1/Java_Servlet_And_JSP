@@ -1,11 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ch10_ex1_email_sol:war exploded">
-    <output-path>$PROJECT_DIR$/intellij/ex_solutions/ch10_ex1_email_sol/target/${project.artifactId}-${project.version}</output-path>
+    <output-path>$PROJECT_DIR$/intellij/ex_solutions/ch10_ex1_email_sol/target/Unknown-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
         <module>ch10_ex1_email_sol</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">
@@ -15,7 +16,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/intellij/ex_solutions/ch10_ex1_email_sol/target/${project.artifactId}-${project.version}/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/intellij/ex_solutions/ch10_ex1_email_sol/target/Unknown-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="ch10_ex1_email_sol/web/Web" />
     </root>

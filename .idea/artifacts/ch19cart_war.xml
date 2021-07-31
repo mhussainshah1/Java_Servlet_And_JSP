@@ -3,11 +3,13 @@
     <output-path>$PROJECT_DIR$/intellij/book_apps/ch19cart/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>ch19cart</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="${project.artifactId}-${project.version}.war">
+    <root id="archive" name="ch19cart-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ch19cart:war exploded" />
     </root>
   </artifact>

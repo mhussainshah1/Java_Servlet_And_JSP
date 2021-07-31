@@ -3,8 +3,10 @@
     <output-path>$PROJECT_DIR$/intellij/book_apps/musicStore/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>musicStore</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="musicStore-1.0-SNAPSHOT.war">

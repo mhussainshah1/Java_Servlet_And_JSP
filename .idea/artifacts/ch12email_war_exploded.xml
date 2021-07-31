@@ -1,11 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ch12email:war exploded">
-    <output-path>$PROJECT_DIR$/intellij/book_apps/ch12email/target/${project.artifactId}-${project.version}</output-path>
+    <output-path>$PROJECT_DIR$/intellij/book_apps/ch12email/target/ch12email-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
         <module>ch12email</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">
@@ -13,9 +14,13 @@
         <element id="directory" name="classes">
           <element id="module-output" name="ch12email" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/intellij/book_apps/ch12email/target/${project.artifactId}-${project.version}/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/intellij/book_apps/ch12email/target/ch12email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="ch12email/web/Web" />
     </root>
