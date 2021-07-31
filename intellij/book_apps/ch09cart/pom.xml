@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
+    <groupId>murach.cart</groupId>
     <artifactId>ch09cart</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>ch09cart</name>
@@ -22,6 +22,11 @@
             <artifactId>jakarta.servlet-api</artifactId>
             <version>5.0.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>2.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

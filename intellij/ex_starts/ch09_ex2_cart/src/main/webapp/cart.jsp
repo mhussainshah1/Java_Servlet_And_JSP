@@ -23,10 +23,8 @@
   <tr>
     <td>
       <form action="" method="post">
-        <input type="hidden" name="productCode" 
-               value="<c:out value='${item.product.code}'/>">
-        <input type=text name="quantity" 
-               value="<c:out value='${item.quantity}'/>" id="quantity">
+        <input type="hidden" name="productCode" value="<c:out value='${item.product.code}'/>">
+        <input type=text name="quantity" value="<c:out value='${item.quantity}'/>" id="quantity">
         <input type="submit" value="Update">
       </form>
     </td>
@@ -35,10 +33,8 @@
     <td>${item.totalCurrencyFormat}</td>
     <td>
       <form action="" method="post">
-        <input type="hidden" name="productCode" 
-               value="<c:out value='${item.product.code}'/>">
-        <input type="hidden" name="quantity" 
-               value="0">
+        <input type="hidden" name="productCode" value="<c:out value='${item.product.code}'/>">
+        <input type="hidden" name="quantity" value="0">
         <input type="submit" value="Remove Item">
       </form>
     </td>
@@ -46,9 +42,9 @@
 </c:forEach>
 </table>
 
-<p><b>To change the quantity</b>, enter the new quantity 
-      and click on the Update button.</p>
-  
+<p><b>To change the quantity</b>, enter the new quantity
+  and click on the Update button.</p>
+
 <form action="" method="post">
   <input type="hidden" name="action" value="shop">
   <input type="submit" value="Continue Shopping">
