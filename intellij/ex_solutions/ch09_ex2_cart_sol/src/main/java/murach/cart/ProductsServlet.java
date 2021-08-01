@@ -1,19 +1,20 @@
 package murach.cart;
 
-import java.io.*;
-import jakarta.servlet.*;
-import jakarta.servlet.http.*;
-
-import java.util.ArrayList;
-
-import murach.data.ProductIO;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import murach.business.Product;
+import murach.data.ProductIO;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class ProductsServlet extends HttpServlet {
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
 
         String path = getServletContext().getRealPath("/WEB-INF/products.txt");
@@ -21,8 +22,6 @@ public class ProductsServlet extends HttpServlet {
         session.setAttribute("products", products);
 
         String url = "/index.jsp";
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
+        getServletContext().getRequestDispatcher(url).forward(request, response);
     }
 }

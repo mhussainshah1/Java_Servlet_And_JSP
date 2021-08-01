@@ -1,18 +1,20 @@
 package murach.data;
 
-import java.io.*;
-import java.util.*;
+import murach.business.Product;
 
-import murach.business.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 public class ProductIO {
 
     public static Product getProduct(String code, String filepath) {
         try {
             File file = new File(filepath);
-            BufferedReader in
-                    = new BufferedReader(
-                            new FileReader(file));
+            BufferedReader in = new BufferedReader(new FileReader(file));
 
             String line = in.readLine();
             while (line != null) {
@@ -39,12 +41,10 @@ public class ProductIO {
     }
 
     public static ArrayList<Product> getProducts(String filepath) {
-        ArrayList<Product> products = new ArrayList<Product>();
+        ArrayList<Product> products = new ArrayList<>();
         File file = new File(filepath);
         try {
-            BufferedReader in
-                    = new BufferedReader(
-                            new FileReader(file));
+            BufferedReader in = new BufferedReader(new FileReader(file));
 
             String line = in.readLine();
             while (line != null) {
