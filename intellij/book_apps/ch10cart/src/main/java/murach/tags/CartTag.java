@@ -10,7 +10,7 @@ import murach.business.*;
 public class CartTag extends BodyTagSupport {
 
     private ArrayList<LineItem> lineItems;
-    private Iterator iterator;
+    private Iterator<LineItem> iterator;
     private LineItem item;
 
     @Override

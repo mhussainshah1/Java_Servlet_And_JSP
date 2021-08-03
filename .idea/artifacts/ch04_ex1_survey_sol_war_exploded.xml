@@ -6,7 +6,6 @@
         <exploded>true</exploded>
         <module>ch04_ex1_survey_sol</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">

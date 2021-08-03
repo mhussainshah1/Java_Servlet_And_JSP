@@ -6,7 +6,6 @@
         <exploded>true</exploded>
         <module>ch09email</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">

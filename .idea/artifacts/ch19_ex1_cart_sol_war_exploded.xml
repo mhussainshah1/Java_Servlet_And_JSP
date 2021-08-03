@@ -6,7 +6,6 @@
         <exploded>true</exploded>
         <module>ch19_ex1_cart_sol</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">

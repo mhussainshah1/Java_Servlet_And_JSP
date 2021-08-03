@@ -3,10 +3,8 @@
     <output-path>$PROJECT_DIR$/intellij/ex_starts/ch18_ex1_http_old/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <exploded>false</exploded>
         <module>ch18_ex1_http_old</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="Unknown-1.0-SNAPSHOT.war">

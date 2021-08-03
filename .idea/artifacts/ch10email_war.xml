@@ -3,10 +3,8 @@
     <output-path>$PROJECT_DIR$/intellij/book_apps/ch10email/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <exploded>false</exploded>
         <module>ch10email</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="ch10email-1.0-SNAPSHOT.war">
