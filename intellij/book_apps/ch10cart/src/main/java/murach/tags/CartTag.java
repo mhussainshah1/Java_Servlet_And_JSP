@@ -1,11 +1,15 @@
 package murach.tags;
 
-import jakarta.servlet.jsp.*;
-import jakarta.servlet.jsp.tagext.*;
-import java.util.*;
-import java.io.IOException;
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.JspWriter;
+import jakarta.servlet.jsp.tagext.BodyTagSupport;
+import murach.business.Cart;
+import murach.business.LineItem;
+import murach.business.Product;
 
-import murach.business.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class CartTag extends BodyTagSupport {
 
@@ -28,23 +32,18 @@ public class CartTag extends BodyTagSupport {
     public void doInitBody() throws JspException {
         iterator = lineItems.iterator();
         if (iterator.hasNext()) {
-            item = (LineItem) iterator.next();
+            item = iterator.next();
             this.setItemAttributes(item);
         }
     }
 
     private void setItemAttributes(LineItem item) {
         Product p = item.getProduct();
-        pageContext.setAttribute(
-                "productCode", p.getCode());
-        pageContext.setAttribute(
-                "productDescription", p.getDescription());
-        pageContext.setAttribute(
-                "productPrice", p.getPriceCurrencyFormat());
-        pageContext.setAttribute(
-                "quantity", new Integer(item.getQuantity()));
-        pageContext.setAttribute(
-                "total", item.getTotalCurrencyFormat());
+        pageContext.setAttribute("productCode", p.getCode());
+        pageContext.setAttribute("productDescription", p.getDescription());
+        pageContext.setAttribute("productPrice", p.getPriceCurrencyFormat());
+        pageContext.setAttribute("quantity", new Integer(item.getQuantity()));
+        pageContext.setAttribute("total", item.getTotalCurrencyFormat());
     }
 
     @Override

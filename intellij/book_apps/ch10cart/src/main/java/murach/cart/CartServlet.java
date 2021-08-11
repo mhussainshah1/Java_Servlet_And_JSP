@@ -1,21 +1,25 @@
 package murach.cart;
 
-import java.io.*;
-import jakarta.servlet.*;
-import jakarta.servlet.http.*;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+import murach.business.Cart;
+import murach.business.LineItem;
+import murach.business.Product;
+import murach.data.ProductIO;
 
-import murach.data.*;
-import murach.business.*;
+import java.io.IOException;
 
 public class CartServlet extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest request,
-            HttpServletResponse response)
-            throws ServletException, IOException {
-        
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         ServletContext sc = getServletContext();
-        
+
         // get current action
         String action = request.getParameter("action");
         if (action == null) {
