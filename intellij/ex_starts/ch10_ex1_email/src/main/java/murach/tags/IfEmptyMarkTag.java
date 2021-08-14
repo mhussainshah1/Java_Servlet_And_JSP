@@ -1,13 +1,13 @@
 package murach.tags;
 
-import javax.servlet.jsp.*;
-import javax.servlet.jsp.tagext.*;
+import jakarta.servlet.jsp.*;
+import jakarta.servlet.jsp.tagext.*;
 import java.io.*;
 
 public class IfEmptyMarkTag extends TagSupport {
 
     private String field;
-    private String color = "red";
+    private String color = "green";
 
     public void setField(String field) {
         this.field = field;

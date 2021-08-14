@@ -13,14 +13,15 @@
     <tag>
         <name>currentDate</name>
         <tag-class>murach.tags.CurrentDateTag</tag-class>
-        <info>Returns the current date with the SHORT date format</info>
+        <info>Returns the current date with the LONG date format</info>
     </tag>
 
     <tag>
         <name>currentTime</name>
         <tag-class>murach.tags.CurrentTimeTag</tag-class>
+        <info>Returns the current time with the LONG time format</info>
     </tag>
-
+    
     <tag>
         <name>ifWeekday</name>
         <tag-class>murach.tags.IfWeekdayTag</tag-class>

@@ -20,9 +20,8 @@
     <span>${user.lastName}</span><br>
 
     <p>The current date is <mma:currentDate />.</p>
-
-    <p>The current time is <mma:currentTime />.</p>
-
+    <p>The current time is <mma:currentTime />.</p>    
+    
     <p>To enter another email address, click on the Back 
     button in your browser or the Return button shown 
     below.</p>

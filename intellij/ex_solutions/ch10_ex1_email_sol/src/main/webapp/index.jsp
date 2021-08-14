@@ -9,12 +9,12 @@
 <body>
     <h1>Join our email list</h1>
     <p>To join our email list, enter your name and
-        email address below.</p>
-
-    <p><mma:ifEmptyMark color="blue" field=""/> marks required fields</p>
-
+       email address below.</p>
+    
+    <p><mma:ifEmptyMark field=""/> marks required fields</p>
+    
     <form action="emailList" method="post">
-        <input type="hidden" name="action" value="add">
+        <input type="hidden" name="action" value="add">        
 
         <label class="pad_top">Email:</label>
         <input type="email" name="email" value="${user.email}">
@@ -26,19 +26,18 @@
 
         <label class="pad_top">Last Name:</label>
         <input type="text" name="lastName" value="${user.lastName}">
-        <mma:ifEmptyMark field="${user.lastName}"/><br>
+        <mma:ifEmptyMark field="${user.lastName}"/><br>        
 
         <label>&nbsp;</label>
         <input type="submit" value="Join Now" class="margin_left">
     </form>
-
-    <p>The current date is <mma:currentDate/>.</p>
-
-    <p>The current time is <mma:currentTime/>.</p>
-
+        
+    <p>The current date is <mma:currentDate />.</p>
+    <p>The current time is <mma:currentTime />.</p>    
+    
     <mma:ifWeekday>
-        <p>Live support available at 1-800-555-2222</p>
+       <p>Live support available at 1-800-555-2222</p>
     </mma:ifWeekday>
-
+    
 </body>
 </html>
