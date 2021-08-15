@@ -14,9 +14,7 @@ public class ProductIO {
     public static Product getProduct(String code, String filepath) {
         try {
             File file = new File(filepath);
-            BufferedReader in
-                    = new BufferedReader(
-                            new FileReader(file));
+            BufferedReader in = new BufferedReader(new FileReader(file));
 
             String line = in.readLine();
             while (line != null) {
@@ -46,9 +44,7 @@ public class ProductIO {
         ArrayList<Product> products = new ArrayList<Product>();
         File file = new File(filepath);
         try {
-            BufferedReader in
-                    = new BufferedReader(
-                            new FileReader(file));
+            BufferedReader in = new BufferedReader(new FileReader(file));
 
             String line = in.readLine();
             while (line != null) {

@@ -39,16 +39,11 @@ public class CartTag extends BodyTagSupport {
 
     private void setItemAttributes(LineItem item) {
         Product p = item.getProduct();
-        pageContext.setAttribute(
-                "productCode", p.getCode());
-        pageContext.setAttribute(
-                "productDescription", p.getDescription());
-        pageContext.setAttribute(
-                "productPrice", p.getPriceCurrencyFormat());
-        pageContext.setAttribute(
-                "quantity", item.getQuantity());
-        pageContext.setAttribute(
-                "total", item.getTotalCurrencyFormat());
+        pageContext.setAttribute("productCode", p.getCode());
+        pageContext.setAttribute("productDescription", p.getDescription());
+        pageContext.setAttribute("productPrice", p.getPriceCurrencyFormat());
+        pageContext.setAttribute("quantity", item.getQuantity());
+        pageContext.setAttribute("total", item.getTotalCurrencyFormat());
     }
 
     @Override

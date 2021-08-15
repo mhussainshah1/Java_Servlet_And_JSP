@@ -16,12 +16,10 @@ import java.io.IOException;
 public class CartServlet extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest request,
-            HttpServletResponse response)
-            throws ServletException, IOException {
-        
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         ServletContext sc = getServletContext();
-        
+
         // get current action
         String action = request.getParameter("action");
         if (action == null) {
@@ -74,7 +72,6 @@ public class CartServlet extends HttpServlet {
             url = "/checkout.jsp";
         }
 
-        sc.getRequestDispatcher(url)
-                .forward(request, response);
+        sc.getRequestDispatcher(url)                .forward(request, response);
     }
 }

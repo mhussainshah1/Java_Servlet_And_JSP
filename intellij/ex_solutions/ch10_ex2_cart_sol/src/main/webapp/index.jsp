@@ -14,17 +14,17 @@
         <th class="right">Price</th>
         <th>&nbsp;</th>
     </tr>
-
+    
     <%@ taglib uri="/WEB-INF/murach.tld" prefix="mma" %>
-    <mma:products>
-        <tr>
-            <td>${description}</td>
-            <td class="right">${price}</td>
-            <td><form action="cart" method="post">
+    <mma:products>  
+    <tr>
+        <td>${description}</td>
+        <td class="right">${price}</td>
+        <td><form action="cart" method="post">
                 <input type="hidden" name="productCode" value="${code}">
                 <input type="submit" value="Add To Cart">
             </form></td>
-        </tr>
+    </tr>
     </mma:products>
 </table>
         
