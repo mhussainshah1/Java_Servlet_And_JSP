@@ -1,11 +1,17 @@
 package murach.cart;
 
-import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+import murach.business.Cart;
+import murach.business.LineItem;
+import murach.business.Product;
+import murach.data.ProductIO;
 
-import murach.data.*;
-import murach.business.*;
+import java.io.IOException;
 
 public class CartServlet extends HttpServlet {
 

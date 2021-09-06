@@ -6,6 +6,7 @@
         <exploded>true</exploded>
         <module>ch10cart</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">
@@ -14,11 +15,6 @@
           <element id="module-output" name="ch10cart" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0" />
-          <element id="library" level="project" name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0" />
-          <element id="library" level="project" name="Maven: jakarta.el:jakarta.el-api:4.0.0" />
-          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0" />
-          <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:2.0.0" />
           <element id="library" level="project" name="Maven: jakarta.platform:jakarta.jakartaee-api:9.1.0" />
         </element>
       </element>

@@ -1,18 +1,26 @@
 package murach.tags;
 
-import javax.servlet.jsp.*;
-import javax.servlet.jsp.tagext.*;
-import java.io.*;
-import java.util.*;
-import java.text.DateFormat;
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.JspWriter;
+import jakarta.servlet.jsp.tagext.TagSupport;
+
+import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+import java.util.Date;
 
 public class CurrentDateTag extends TagSupport {
 
     @Override
     public int doStartTag() throws JspException {
-        Date currentDate = new Date();
-        DateFormat shortDate = DateFormat.getDateInstance(DateFormat.SHORT);
-        String currentDateFormatted = shortDate.format(currentDate);
+        LocalDate currentDate = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG);
+        String currentDateFormatted = currentDate.format(formatter);
+
+//        Date currentDate = new Date();
+//        DateFormat shortDate = DateFormat.getDateInstance(DateFormat.LONG);
+//        String currentDateFormatted = shortDate.format(currentDate);
 
         try {
             JspWriter out = pageContext.getOut();

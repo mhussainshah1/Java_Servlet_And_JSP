@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<taglib xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+  <tlib-version>1.0</tlib-version>
+  <short-name>murach</short-name>
+  <uri>/WEB-INF/murach.tld</uri>
+  <tag>
+    <name>cart</name>
+    <tag-class>murach.tags.CartTag</tag-class>
+    <body-content>JSP</body-content>
+  </tag>
+  <tag>
+    <name>products</name>
+    <tag-class>murach.tags.ProductsTag</tag-class>
+    <body-content>JSP</body-content>
+  </tag>
+</taglib>

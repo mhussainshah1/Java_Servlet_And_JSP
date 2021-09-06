@@ -9,13 +9,18 @@ public class Product implements Serializable
     private String description;
     private double price;
     
-    public Product()
-    {
+    public Product() {
         code = "";
         description = "";
         price = 0;
     }
-    
+
+    public Product(String code, String description, double price) {
+        this.code = code;
+        this.description = description;
+        this.price = price;
+    }
+
     public void setCode(String code)
     {
         this.code = code;

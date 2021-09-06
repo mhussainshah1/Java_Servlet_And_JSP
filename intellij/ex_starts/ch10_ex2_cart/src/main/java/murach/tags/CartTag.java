@@ -1,16 +1,20 @@
 package murach.tags;
 
-import javax.servlet.jsp.*;
-import javax.servlet.jsp.tagext.*;
-import java.util.*;
-import java.io.IOException;
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.JspWriter;
+import jakarta.servlet.jsp.tagext.BodyTagSupport;
+import murach.business.Cart;
+import murach.business.LineItem;
+import murach.business.Product;
 
-import murach.business.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class CartTag extends BodyTagSupport {
 
     private ArrayList<LineItem> lineItems;
-    private Iterator iterator;
+    private Iterator<LineItem> iterator;
     private LineItem item;
 
     @Override
@@ -28,7 +32,7 @@ public class CartTag extends BodyTagSupport {
     public void doInitBody() throws JspException {
         iterator = lineItems.iterator();
         if (iterator.hasNext()) {
-            item = (LineItem) iterator.next();
+            item = iterator.next();
             this.setItemAttributes(item);
         }
     }
@@ -42,7 +46,7 @@ public class CartTag extends BodyTagSupport {
         pageContext.setAttribute(
                 "productPrice", p.getPriceCurrencyFormat());
         pageContext.setAttribute(
-                "quantity", new Integer(item.getQuantity()));
+                "quantity", item.getQuantity());
         pageContext.setAttribute(
                 "total", item.getTotalCurrencyFormat());
     }
@@ -51,7 +55,7 @@ public class CartTag extends BodyTagSupport {
     public int doAfterBody() throws JspException {
         try {
             if (iterator.hasNext()) {
-                item = (LineItem) iterator.next();
+                item = iterator.next();
                 this.setItemAttributes(item);
                 return EVAL_BODY_AGAIN;
             } else {

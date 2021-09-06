@@ -1,19 +1,19 @@
 package murach.data;
 
-import java.io.*;
-import java.util.*;
+import murach.business.Product;
 
-import murach.business.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 public class ProductIO {
 
     public static Product getProduct(String code, String filepath) {
-        try {
-            File file = new File(filepath);
-            BufferedReader in
-                    = new BufferedReader(
-                            new FileReader(file));
-
+        File file = new File(filepath);
+        try (BufferedReader in = new BufferedReader(new FileReader(file));) {
             String line = in.readLine();
             while (line != null) {
                 StringTokenizer t = new StringTokenizer(line, "|");
@@ -21,11 +21,7 @@ public class ProductIO {
                 if (code.equalsIgnoreCase(productCode)) {
                     String description = t.nextToken();
                     double price = Double.parseDouble(t.nextToken());
-                    Product p = new Product();
-                    p.setCode(code);
-                    p.setDescription(description);
-                    p.setPrice(price);
-                    in.close();
+                    Product p = new Product(code, description, price);
                     return p;
                 }
                 line = in.readLine();
@@ -39,13 +35,9 @@ public class ProductIO {
     }
 
     public static ArrayList<Product> getProducts(String filepath) {
-        ArrayList<Product> products = new ArrayList<Product>();
+        ArrayList<Product> products = new ArrayList<>();
         File file = new File(filepath);
-        try {
-            BufferedReader in
-                    = new BufferedReader(
-                            new FileReader(file));
-
+        try (BufferedReader in = new BufferedReader(new FileReader(file));) {
             String line = in.readLine();
             while (line != null) {
                 StringTokenizer t = new StringTokenizer(line, "|");
@@ -53,14 +45,10 @@ public class ProductIO {
                 String description = t.nextToken();
                 String priceAsString = t.nextToken();
                 double price = Double.parseDouble(priceAsString);
-                Product p = new Product();
-                p.setCode(code);
-                p.setDescription(description);
-                p.setPrice(price);
+                Product p = new Product(code, description, price);
                 products.add(p);
                 line = in.readLine();
             }
-            in.close();
             return products;
         } catch (IOException e) {
             e.printStackTrace();

@@ -26,11 +26,8 @@ public class Cart implements Serializable
     {
         String code = item.getProduct().getCode();
         int quantity = item.getQuantity();
-        for (int i = 0; i < items.size(); i++)
-        {
-            LineItem lineItem = items.get(i);
-            if (lineItem.getProduct().getCode().equals(code))
-            {
+        for (LineItem lineItem : items) {
+            if (lineItem.getProduct().getCode().equals(code)) {
                 lineItem.setQuantity(quantity);
                 return;
             }

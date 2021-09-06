@@ -9,8 +9,7 @@ public class Product implements Serializable
     private String description;
     private double price;
     
-    public Product()
-    {
+    public Product() {
         code = "";
         description = "";
         price = 0;

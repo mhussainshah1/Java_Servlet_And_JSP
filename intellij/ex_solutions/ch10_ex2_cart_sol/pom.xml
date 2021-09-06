@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId></artifactId>
+    <groupId>murach.business</groupId>
+    <artifactId>ch10_ex2_cart_sol</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name></name>
+    <name>ch10_ex2_cart_sol</name>
     <packaging>war</packaging>
 
     <properties>
@@ -22,6 +22,11 @@
             <artifactId>jakarta.servlet-api</artifactId>
             <version>5.0.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>9.1.0</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
