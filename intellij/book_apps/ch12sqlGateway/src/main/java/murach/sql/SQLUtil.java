@@ -1,12 +1,13 @@
 package murach.sql;
 
-import java.sql.*;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
 
 public class SQLUtil {
 
-    public static String getHtmlTable(ResultSet results)
-            throws SQLException {
-        
+    public static String getHtmlTable(ResultSet results) throws SQLException {
+
         StringBuilder htmlTable = new StringBuilder();
         ResultSetMetaData metaData = results.getMetaData();
         int columnCount = metaData.getColumnCount();

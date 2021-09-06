@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId></artifactId>
+    <artifactId>ch12_ex2_userAdmin</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name></name>
+    <name>ch12_ex2_userAdmin</name>
     <packaging>war</packaging>
 
     <properties>
@@ -22,6 +22,11 @@
             <artifactId>jakarta.servlet-api</artifactId>
             <version>5.0.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>2.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

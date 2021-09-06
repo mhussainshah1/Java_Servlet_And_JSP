@@ -1,24 +1,25 @@
 package murach.sql;
 
-import java.io.*;
-import jakarta.servlet.*;
-import jakarta.servlet.http.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
+import java.io.IOException;
 import java.sql.*;
 
 public class SqlGatewayServlet extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest request,
-            HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String sqlStatement = request.getParameter("sqlStatement");
         String sqlResult = "";
         try {
             // load the driver
             Class.forName("com.mysql.jdbc.Driver");
-            
+
             // get a connection
             String dbURL = "jdbc:mysql://localhost:3306/murach";
             String username = "murach_user";
@@ -42,12 +43,12 @@ public class SqlGatewayServlet extends HttpServlet {
                 } else {
                     int i = statement.executeUpdate(sqlStatement);
                     if (i == 0) { // a DDL statement
-                        sqlResult = 
+                        sqlResult =
                                 "<p>The statement executed successfully.</p>";
                     } else { // an INSERT, UPDATE, or DELETE statement
-                        sqlResult = 
+                        sqlResult =
                                 "<p>The statement executed successfully.<br>"
-                                + i + " row(s) affected.</p>";
+                                        + i + " row(s) affected.</p>";
                     }
                 }
             }

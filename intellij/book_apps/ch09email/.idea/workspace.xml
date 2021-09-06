@@ -10,20 +10,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a8ae933-1a7e-4364-b0b0-446d55207339" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch09email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch09email-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch09email-1.0-SNAPSHOT/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch09email-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch09email-1.0-SNAPSHOT/thanks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch09email.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/email/EmailListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/sql_scripts/UserTestCreate.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/sql_scripts/UserTestDrop.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/sql_scripts/UsersDelete.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/sql_scripts/UsersInsert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/sql_scripts/UsersSelect.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch12sqlGateway/target/ch12sqlGateway-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/sql_scripts/UserTestCreate.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/sql_scripts/UserTestDrop.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/sql_scripts/UsersDelete.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/sql_scripts/UsersInsert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/sql_scripts/UsersSelect.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/target/ch12_ex1_sqlGateway-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12email/.idea/artifacts/ch12email_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12email/.idea/artifacts/ch12email_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12email/.idea/artifacts/ch12email_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12email/.idea/artifacts/ch12email_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12email/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12email/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12sqlGateway/ch12sqlGateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12sqlGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12sqlGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12sqlGateway/src/main/java/murach/sql/SQLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12sqlGateway/src/main/java/murach/sql/SQLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch12sqlGateway/src/main/java/murach/sql/SqlGatewayServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch12sqlGateway/src/main/java/murach/sql/SqlGatewayServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/ch12_ex1_sqlGateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex1_sqlGateway/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/ch12_ex2_userAdmin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/src/main/java/murach/admin/UsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/src/main/java/murach/admin/UsersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/project.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +84,19 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1w4sYzA8dgOb8XoIXJNShCFEXeB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch10cart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -156,6 +202,7 @@
       <updated>1627729247762</updated>
       <workItem from="1627729249155" duration="2079000" />
       <workItem from="1627821309345" duration="1737000" />
+      <workItem from="1630901523096" duration="800000" />
     </task>
     <servers />
   </component>
@@ -173,5 +220,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
