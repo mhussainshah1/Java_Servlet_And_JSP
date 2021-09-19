@@ -3,8 +3,10 @@
     <output-path>$PROJECT_DIR$/intellij/ex_starts/ch09_ex1_download/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>ch09_ex1_download</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="ch09_ex1_download-1.0-SNAPSHOT.war">

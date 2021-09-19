@@ -6,6 +6,7 @@
         <exploded>true</exploded>
         <module>ch09_ex1_download</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">

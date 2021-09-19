@@ -3,8 +3,10 @@
     <output-path>$PROJECT_DIR$/intellij/ex_starts/ch05_ex1_email/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>ch05_ex1_email</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="ch05_ex1_email-1.0-SNAPSHOT.war">
