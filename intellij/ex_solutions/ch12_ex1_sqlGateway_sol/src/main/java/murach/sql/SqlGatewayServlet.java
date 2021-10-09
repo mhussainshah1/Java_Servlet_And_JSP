@@ -52,8 +52,7 @@ public class SqlGatewayServlet extends HttpServlet {
             statement.close();
             connection.close();
         } catch (SQLException e) {
-            sqlResult = "<p>Error executing the SQL statement: <br>"
-                    + e.getMessage() + "</p>";
+            sqlResult = "<p>Error executing the SQL statement: <br>" + e.getMessage() + "</p>";
         } finally {
             pool.freeConnection(connection);
         }
