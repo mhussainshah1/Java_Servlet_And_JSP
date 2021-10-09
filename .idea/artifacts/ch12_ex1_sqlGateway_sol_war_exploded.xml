@@ -22,6 +22,8 @@
           <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:2.0.0" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-dbcp:10.0.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:10.0.7" />
         </element>
       </element>
       <element id="directory" name="META-INF">

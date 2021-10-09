@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ch16_ex1_admin_sol:war exploded">
-    <output-path>$PROJECT_DIR$/intellij/ex_solutions/ch16_ex1_admin_sol/target/Unknown-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/intellij/ex_solutions/ch16_ex1_admin_sol/target/ch16_ex1_admin_sol-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -16,7 +16,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/intellij/ex_solutions/ch16_ex1_admin_sol/target/Unknown-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/intellij/ex_solutions/ch16_ex1_admin_sol/target/ch16_ex1_admin_sol-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="ch16_ex1_admin_sol/web/Web" />
     </root>

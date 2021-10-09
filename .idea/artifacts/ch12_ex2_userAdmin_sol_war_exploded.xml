@@ -14,6 +14,17 @@
         <element id="directory" name="classes">
           <element id="module-output" name="ch12_ex2_userAdmin_sol" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.el:jakarta.el-api:4.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0" />
+          <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:2.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-dbcp:10.0.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:10.0.7" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/intellij/ex_solutions/ch12_ex2_userAdmin_sol/target/ch12_ex2_userAdmin_sol-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
