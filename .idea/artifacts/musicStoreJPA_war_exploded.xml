@@ -14,6 +14,15 @@
         <element id="directory" name="classes">
           <element id="module-output" name="musicStoreJPA" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:5.0.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.30" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-math3:3.6.1" />
+          <element id="library" level="project" name="Maven: com.zaxxer:SparseBitSet:1.2" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/intellij/book_apps/musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />

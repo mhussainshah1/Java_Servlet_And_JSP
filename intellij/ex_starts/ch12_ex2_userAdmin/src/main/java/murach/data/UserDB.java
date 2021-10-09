@@ -7,6 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
 public class UserDB {
 
@@ -141,7 +142,7 @@ public class UserDB {
         }
     }
 
-    public static ArrayList<User> selectUsers() {
+    public static List<User> selectUsers() {
         // add code that returns an ArrayList<User> object of all users in the User table
         ConnectionPool pool = ConnectionPool.getInstance();
         Connection connection = pool.getConnection();
@@ -155,7 +156,7 @@ public class UserDB {
             ps = connection.prepareStatement(query);
             rs = ps.executeQuery();
             User user = null;
-            ArrayList<User> users = new ArrayList<>();
+            List<User> users = new ArrayList<>();
             while (rs.next()) {
                 user = new User(rs.getString("FirstName"),
                         rs.getString("LastName"),

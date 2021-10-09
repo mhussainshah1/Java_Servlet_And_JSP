@@ -9,7 +9,7 @@
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="ch13_ex2_user_userAdmin_sol-1.0-SNAPSHOT.war">
+    <root id="archive" name="ch13_ex2_userAdmin_sol-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ch13_ex2_userAdmin_sol:war exploded" />
     </root>
   </artifact>

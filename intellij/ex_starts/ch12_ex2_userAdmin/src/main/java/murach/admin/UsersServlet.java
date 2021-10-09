@@ -9,7 +9,7 @@ import murach.business.User;
 import murach.data.UserDB;
 
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
 public class UsersServlet extends HttpServlet {
 
@@ -29,7 +29,7 @@ public class UsersServlet extends HttpServlet {
         // perform action and set URL to appropriate page
         if (action.equals("display_users")) {
             // get list of users
-            ArrayList<User> users = UserDB.selectUsers();
+            List<User> users = UserDB.selectUsers();
 
             // set as a request attribute
             request.setAttribute("users", users);
@@ -48,19 +48,31 @@ public class UsersServlet extends HttpServlet {
             url = "/user.jsp";
         } else if (action.equals("update_user")) {
             // update user in database
-            User user = UserDB.selectUser(request.getParameter("email"));
+            String firstName = request.getParameter("firstName");
+            String lastName = request.getParameter("lastName");
+
+            User user = (User) session.getAttribute("user");
+            user.setFirstName(firstName);
+            user.setLastName(lastName);
             UserDB.update(user);
 
             // get current user list and set as request attribute
-            ArrayList<User> users = UserDB.selectUsers();
+            List<User> users = UserDB.selectUsers();
             request.setAttribute("users", users);
 
             // forward to index.jsp
         } else if (action.equals("delete_user")) {
             // get the user for the specified email
+            String email = request.getParameter("email");
+
             // delete the user            
+            User user = UserDB.selectUser(email);
+            UserDB.delete(user);
+
             // get current list of users
+            List<User> users = UserDB.selectUsers();
             // set as request attribute
+            request.setAttribute("users", users);
             // forward to index.jsp
         }
 
@@ -70,9 +82,7 @@ public class UsersServlet extends HttpServlet {
     }
 
     @Override
-    protected void doGet(HttpServletRequest request,
-                         HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request, response);
     }
 }
