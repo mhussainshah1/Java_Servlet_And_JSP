@@ -1,9 +1,12 @@
 package murach.data;
 
-import java.sql.*;
-import java.util.ArrayList;
-
 import murach.business.User;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class UserDB {
 
@@ -13,8 +16,10 @@ public class UserDB {
         PreparedStatement ps = null;
 
         String query
-                = "INSERT INTO User (Email, FirstName, LastName) "
-                + "VALUES (?, ?, ?)";
+                = """
+                INSERT INTO User (Email, FirstName, LastName)
+                VALUES (?, ?, ?)
+                """;
         try {
             ps = connection.prepareStatement(query);
             ps.setString(1, user.getEmail());
@@ -35,10 +40,11 @@ public class UserDB {
         Connection connection = pool.getConnection();
         PreparedStatement ps = null;
 
-        String query = "UPDATE User SET "
-                + "FirstName = ?, "
-                + "LastName = ? "
-                + "WHERE Email = ?";
+        String query = """
+                UPDATE User SET
+                FirstName = ?,
+                LastName = ? 
+                WHERE Email = ?""";
         try {
             ps = connection.prepareStatement(query);
             ps.setString(1, user.getFirstName());
@@ -60,8 +66,10 @@ public class UserDB {
         Connection connection = pool.getConnection();
         PreparedStatement ps = null;
 
-        String query = "DELETE FROM User "
-                + "WHERE Email = ?";
+        String query = """
+                DELETE FROM User
+                WHERE Email = ?
+                """;
         try {
             ps = connection.prepareStatement(query);
             ps.setString(1, user.getEmail());
@@ -82,8 +90,11 @@ public class UserDB {
         PreparedStatement ps = null;
         ResultSet rs = null;
 
-        String query = "SELECT Email FROM User "
-                + "WHERE Email = ?";
+        String query = """
+                SELECT Email
+                FROM User 
+                WHERE Email = ?
+                """;
         try {
             ps = connection.prepareStatement(query);
             ps.setString(1, email);
@@ -105,18 +116,19 @@ public class UserDB {
         PreparedStatement ps = null;
         ResultSet rs = null;
 
-        String query = "SELECT * FROM User "
-                + "WHERE Email = ?";
+        String query = """
+                SELECT * FROM User 
+                WHERE Email = ?
+                """;
         try {
             ps = connection.prepareStatement(query);
             ps.setString(1, email);
             rs = ps.executeQuery();
             User user = null;
             if (rs.next()) {
-                user = new User();
-                user.setFirstName(rs.getString("FirstName"));
-                user.setLastName(rs.getString("LastName"));
-                user.setEmail(rs.getString("Email"));
+                user = new User(rs.getString("FirstName"),
+                        rs.getString("LastName"),
+                        rs.getString("Email"));
             }
             return user;
         } catch (SQLException e) {
@@ -128,9 +140,36 @@ public class UserDB {
             pool.freeConnection(connection);
         }
     }
-    
+
     public static ArrayList<User> selectUsers() {
         // add code that returns an ArrayList<User> object of all users in the User table
-        return null;
-    }    
+        ConnectionPool pool = ConnectionPool.getInstance();
+        Connection connection = pool.getConnection();
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+
+        String query = """
+                SELECT * FROM User
+                """;
+        try {
+            ps = connection.prepareStatement(query);
+            rs = ps.executeQuery();
+            User user = null;
+            ArrayList<User> users = new ArrayList<>();
+            while (rs.next()) {
+                user = new User(rs.getString("FirstName"),
+                        rs.getString("LastName"),
+                        rs.getString("Email"));
+                users.add(user);
+            }
+            return users;
+        } catch (SQLException e) {
+            System.out.println(e);
+            return null;
+        } finally {
+            DBUtil.closeResultSet(rs);
+            DBUtil.closePreparedStatement(ps);
+            pool.freeConnection(connection);
+        }
+    }
 }

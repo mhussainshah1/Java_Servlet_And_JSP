@@ -5,6 +5,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import murach.data.ConnectionPool;
 
 import java.io.IOException;
 import java.sql.*;
@@ -16,8 +17,12 @@ public class SqlGatewayServlet extends HttpServlet {
 
         String sqlStatement = request.getParameter("sqlStatement");
         String sqlResult = "";
+
+        ConnectionPool pool = ConnectionPool.getInstance();
+        Connection connection = pool.getConnection();
+
         try {
-            // load the driver
+         /*   // load the driver
             Class.forName("com.mysql.jdbc.Driver");
 
             // get a connection
@@ -25,7 +30,7 @@ public class SqlGatewayServlet extends HttpServlet {
             String username = "murach_user";
             String password = "sesame";
             Connection connection = DriverManager.getConnection(
-                    dbURL, username, password);
+                    dbURL, username, password);*/
 
             // create a statement
             Statement statement = connection.createStatement();
@@ -54,12 +59,14 @@ public class SqlGatewayServlet extends HttpServlet {
             }
             statement.close();
             connection.close();
-        } catch (ClassNotFoundException e) {
+        } /*catch (ClassNotFoundException e) {
             sqlResult = "<p>Error loading the databse driver: <br>"
                     + e.getMessage() + "</p>";
-        } catch (SQLException e) {
+        }*/ catch (SQLException e) {
             sqlResult = "<p>Error executing the SQL statement: <br>"
                     + e.getMessage() + "</p>";
+        } finally {
+            pool.freeConnection(connection);
         }
 
         HttpSession session = request.getSession();

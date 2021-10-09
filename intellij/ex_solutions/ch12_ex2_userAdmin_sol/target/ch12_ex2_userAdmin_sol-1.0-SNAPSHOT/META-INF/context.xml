@@ -27,11 +27,13 @@
     Connection, Statement, ResultSet, etc. objects that haven't been closed 
     -->
     <Resource
-            name="jdbc/murach" auth="Container"
+            name="jdbc/murach"
+            auth="Container"
             driverClassName="com.mysql.cj.jdbc.Driver"
             url="jdbc:mysql://localhost:3306/murach"
             maxActive="100" maxIdle="30" maxWait="10000"
-            username="root" password="password"
+            username="root"
+            password="password"
             logAbandoned="true" removeAbandoned="true" removeAbandonedTimeout="60"
             type="javax.sql.DataSource"/>
 </Context>

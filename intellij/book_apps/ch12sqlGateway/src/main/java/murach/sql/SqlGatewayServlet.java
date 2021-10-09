@@ -55,11 +55,9 @@ public class SqlGatewayServlet extends HttpServlet {
             statement.close();
             connection.close();
         } catch (ClassNotFoundException e) {
-            sqlResult = "<p>Error loading the databse driver: <br>"
-                    + e.getMessage() + "</p>";
+            sqlResult = "<p>Error loading the databse driver: <br>" + e.getMessage() + "</p>";
         } catch (SQLException e) {
-            sqlResult = "<p>Error executing the SQL statement: <br>"
-                    + e.getMessage() + "</p>";
+            sqlResult = "<p>Error executing the SQL statement: <br>" + e.getMessage() + "</p>";
         }
 
         HttpSession session = request.getSession();

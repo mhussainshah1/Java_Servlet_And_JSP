@@ -1,27 +1,24 @@
 package music.controllers;
 
-import music.data.ReportDB;
-import music.data.InvoiceDB;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.util.List;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-
+import music.business.Invoice;
+import music.data.InvoiceDB;
+import music.data.ReportDB;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Workbook;
 
-import music.business.*;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.util.List;
 
 public class AdminController extends HttpServlet {
 
     @Override
-    public void doPost(HttpServletRequest request,
-            HttpServletResponse response)
-            throws IOException, ServletException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         String requestURI = request.getRequestURI();
         String url = "/admin";
@@ -39,9 +36,7 @@ public class AdminController extends HttpServlet {
     }
 
     @Override
-    public void doGet(HttpServletRequest request,
-            HttpServletResponse response)
-            throws IOException, ServletException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         String requestURI = request.getRequestURI();
         String url = "/admin";
@@ -56,33 +51,30 @@ public class AdminController extends HttpServlet {
                 .forward(request, response);
     }
 
-    private String displayInvoices(HttpServletRequest request,
-            HttpServletResponse response) throws IOException {
+    private String displayInvoices(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        List<Invoice> unprocessedInvoices
-                = InvoiceDB.selectUnprocessedInvoices();
-        
+        List<Invoice> unprocessedInvoices                = InvoiceDB.selectUnprocessedInvoices();
+
         String url;
         if (unprocessedInvoices != null) {
             if (unprocessedInvoices.size() <= 0) {
                 unprocessedInvoices = null;
             }
         }
-        
+
         HttpSession session = request.getSession();
         session.setAttribute("unprocessedInvoices", unprocessedInvoices);
         url = "/admin/invoices.jsp";
         return url;
     }
-    
-    private String displayInvoice(HttpServletRequest request,
-            HttpServletResponse response) {
+
+    private String displayInvoice(HttpServletRequest request, HttpServletResponse response) {
 
         HttpSession session = request.getSession();
 
         String invoiceNumberString = request.getParameter("invoiceNumber");
         int invoiceNumber = Integer.parseInt(invoiceNumberString);
-        List<Invoice> unprocessedInvoices = (List<Invoice>) 
+        List<Invoice> unprocessedInvoices = (List<Invoice>)
                 session.getAttribute("unprocessedInvoices");
 
         Invoice invoice = null;
@@ -98,8 +90,7 @@ public class AdminController extends HttpServlet {
         return "/admin/invoice.jsp";
     }
 
-    private String processInvoice(HttpServletRequest request,
-            HttpServletResponse response) throws IOException {
+    private String processInvoice(HttpServletRequest request, HttpServletResponse response) throws IOException {
         HttpSession session = request.getSession();
 
         Invoice invoice = (Invoice) session.getAttribute("invoice");
@@ -107,14 +98,13 @@ public class AdminController extends HttpServlet {
 
         return "/adminController/displayInvoices";
     }
-    
-    private void displayReport(HttpServletRequest request,
-            HttpServletResponse response) throws IOException {
+
+    private void displayReport(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
         String reportName = request.getParameter("reportName");
         String startDate = request.getParameter("startDate");
         String endDate = request.getParameter("endDate");
-        
+
         Workbook workbook;
         if (reportName.equalsIgnoreCase("userEmail")) {
             workbook = ReportDB.getUserEmail();
@@ -123,8 +113,8 @@ public class AdminController extends HttpServlet {
         } else {
             workbook = new HSSFWorkbook();
         }
-        
-        response.setHeader("content-disposition", 
+
+        response.setHeader("content-disposition",
                 "attachment; filename=" + reportName + ".xls");
         try (OutputStream out = response.getOutputStream()) {
             workbook.write(out);

@@ -26,17 +26,11 @@
       the container will prevent connection pool leaks by automatically removing
       Connection, Statement, ResultSet, etc. objects that haven't been closed
       -->
-    <Resource auth="Container"
-              driverClassName="com.mysql.cj.jdbc.Driver"
-              logAbandoned="true"
-              maxActive="100"
-              maxIdle="30"
-              maxWait="10000"
-              name="jdbc/murach"
-              password="password"
-              removeAbandoned="true"
-              removeAbandonedTimeout="60"
-              type="javax.sql.DataSource"
+    <Resource name="jdbc/murach" auth="Container"
               url="jdbc:mysql://localhost:3306/murach"
-              username="root"/>
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="root" password="password"
+              logAbandoned="true" removeAbandoned="true" removeAbandonedTimeout="60"
+              type="javax.sql.DataSource"/>
 </Context>
