@@ -15,8 +15,10 @@ public class InvoiceDB {
 
         //This method adds a record to the Invoices table.
         //To insert the exact invoice date, the SQL NOW() function is used.
-        String query = "INSERT INTO Invoice (UserID, InvoiceDate, TotalAmount, IsProcessed) "
-                + "VALUES (?, NOW(), ?, 'n')";
+        String query = """
+                       INSERT INTO Invoice (UserID, InvoiceDate, TotalAmount, IsProcessed) 
+                       VALUES (?, NOW(), ?, 'n')
+                       """;
         try {
             ps = connection.prepareStatement(query);
             ps.setLong(1, invoice.getUser().getId());

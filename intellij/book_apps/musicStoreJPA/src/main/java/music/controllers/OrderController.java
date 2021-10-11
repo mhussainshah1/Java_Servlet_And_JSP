@@ -1,21 +1,22 @@
 package music.controllers;
 
-import java.io.IOException;
 import jakarta.mail.MessagingException;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
-
 import music.business.*;
-import music.data.*;
-import music.util.*;
+import music.data.InvoiceDB;
+import music.data.ProductDB;
+import music.data.UserDB;
+import music.util.CookieUtil;
+import music.util.MailUtil;
+
+import java.io.IOException;
 
 public class OrderController extends HttpServlet {
     private static final String defaultURL = "/cart/cart.jsp";
-    
+
     @Override
-    public void doPost(HttpServletRequest request, 
-            HttpServletResponse response)
-            throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String requestURI = request.getRequestURI();
         String url = "";
         if (requestURI.endsWith("/addItem")) {
@@ -41,10 +42,9 @@ public class OrderController extends HttpServlet {
                 .getRequestDispatcher(url)
                 .forward(request, response);
     }
-    
+
     @Override
-    public void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String requestURI = request.getRequestURI();
         String url = defaultURL;
         if (requestURI.endsWith("/showCart")) {
@@ -56,9 +56,8 @@ public class OrderController extends HttpServlet {
                 .getRequestDispatcher(url)
                 .forward(request, response);
     }
-    
-    private String showCart(HttpServletRequest request,
-            HttpServletResponse response) {
+
+    private String showCart(HttpServletRequest request, HttpServletResponse response) {
         HttpSession session = request.getSession();
         Cart cart = (Cart) session.getAttribute("cart");
         if (cart == null || cart.getCount() == 0) {
@@ -68,9 +67,8 @@ public class OrderController extends HttpServlet {
         }
         return defaultURL;
     }
-    
-    private String addItem(HttpServletRequest request,
-            HttpServletResponse response) {
+
+    private String addItem(HttpServletRequest request, HttpServletResponse response) {
         HttpSession session = request.getSession();
         Cart cart = (Cart) session.getAttribute("cart");
         if (cart == null)
@@ -85,9 +83,8 @@ public class OrderController extends HttpServlet {
         session.setAttribute("cart", cart);
         return defaultURL;
     }
-    
-    private String updateItem(HttpServletRequest request,
-            HttpServletResponse response) {
+
+    private String updateItem(HttpServletRequest request, HttpServletResponse response) {
         String quantityString = request.getParameter("quantity");
         String productCode = request.getParameter("productCode");
         HttpSession session = request.getSession();
@@ -112,9 +109,8 @@ public class OrderController extends HttpServlet {
         }
         return defaultURL;
     }
-    
-    private String removeItem(HttpServletRequest request,
-            HttpServletResponse response) {
+
+    private String removeItem(HttpServletRequest request, HttpServletResponse response) {
         HttpSession session = request.getSession();
         Cart cart = (Cart) session.getAttribute("cart");
         String productCode = request.getParameter("productCode");
@@ -126,9 +122,8 @@ public class OrderController extends HttpServlet {
         }
         return defaultURL;
     }
-    
-    private String checkUser(HttpServletRequest request,
-            HttpServletResponse response) {
+
+    private String checkUser(HttpServletRequest request, HttpServletResponse response) {
 
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
@@ -155,9 +150,8 @@ public class OrderController extends HttpServlet {
         return url;
     }
 
-    private String processUser(HttpServletRequest request,
-            HttpServletResponse response) {
-        
+    private String processUser(HttpServletRequest request, HttpServletResponse response) {
+
         String firstName = request.getParameter("firstName");
         String lastName = request.getParameter("lastName");
         String companyName = request.getParameter("companyName");
@@ -185,23 +179,22 @@ public class OrderController extends HttpServlet {
         user.setState(state);
         user.setZip(zip);
         user.setCountry(country);
-        
+
         if (UserDB.emailExists(email)) {
             UserDB.update(user);
         } else {
             UserDB.insert(user);
-        }        
+        }
 
         session.setAttribute("user", user);
 
         return "/order/displayInvoice";
     }
 
-    private String displayInvoice(HttpServletRequest request,
-            HttpServletResponse response) {
+    private String displayInvoice(HttpServletRequest request, HttpServletResponse response) {
         HttpSession session = request.getSession();
-        
-        User user = (User) session.getAttribute("user");       
+
+        User user = (User) session.getAttribute("user");
         Cart cart = (Cart) session.getAttribute("cart");
 
         java.util.Date today = new java.util.Date();
@@ -210,81 +203,79 @@ public class OrderController extends HttpServlet {
         invoice.setUser(user);
         invoice.setInvoiceDate(today);
         invoice.setLineItems(cart.getItems());
-        
+
         session.setAttribute("invoice", invoice);
-        
+
         return "/cart/invoice.jsp";
     }
-    
-    private String completeOrder(HttpServletRequest request,
-            HttpServletResponse response) {
-        HttpSession session = request.getSession();
-        User user = (User)session.getAttribute("user");
-        Invoice invoice = (Invoice)session.getAttribute("invoice");
 
-        String creditCardType = 
+    private String completeOrder(HttpServletRequest request, HttpServletResponse response) {
+        HttpSession session = request.getSession();
+        User user = (User) session.getAttribute("user");
+        Invoice invoice = (Invoice) session.getAttribute("invoice");
+
+        String creditCardType =
                 request.getParameter("creditCardType");
-        String creditCardNumber = 
+        String creditCardNumber =
                 request.getParameter("creditCardNumber");
-        String creditCardExpMonth = 
+        String creditCardExpMonth =
                 request.getParameter("creditCardExpirationMonth");
-        String creditCardExpYear = 
+        String creditCardExpYear =
                 request.getParameter("creditCardExpirationYear");
 
         user.setCreditCardType(creditCardType);
         user.setCreditCardNumber(creditCardNumber);
         user.setCreditCardExpirationDate(creditCardExpMonth
                 + "/" + creditCardExpYear);
-        
+
         // if a record for the User object exists, update it
         if (UserDB.emailExists(user.getEmail())) {
             UserDB.update(user);
         } else { // otherwise, write a new record for the user            
             UserDB.insert(user);
         }
-        
+
         // write a new invoice record
         InvoiceDB.insert(invoice);
-        
+
         // set the emailCookie in the user's browser.
         Cookie emailCookie = new Cookie("emailCookie",
                 user.getEmail());
-        emailCookie.setMaxAge(60*24*365*2*60);
+        emailCookie.setMaxAge(60 * 24 * 365 * 2 * 60);
         emailCookie.setPath("/");
         response.addCookie(emailCookie);
 
         // remove all items from the user's cart
         session.setAttribute("cart", null);
-               
+
         // send an email to the user to confirm the order.
         String to = user.getEmail();
         String from = "confirmation@freshcornrecords.com";
         String subject = "Order Confirmation";
         String body = "Dear " + user.getFirstName() + ",\n\n" +
-            "Thanks for ordering from us. " +
-            "You should receive your order in 3-5 business days. " + 
-            "Please contact us if you have any questions.\n" +
-            "Have a great day and thanks again!\n\n" +
-            "Joe King\n" +
-            "Fresh Corn Records";
+                "Thanks for ordering from us. " +
+                "You should receive your order in 3-5 business days. " +
+                "Please contact us if you have any questions.\n" +
+                "Have a great day and thanks again!\n\n" +
+                "Joe King\n" +
+                "Fresh Corn Records";
         boolean isBodyHTML = false;
         try {
             MailUtil.sendMail(to, from, subject, body, isBodyHTML);
-        }
-        catch(MessagingException e) {
+        } catch (MessagingException e) {
             this.log(
-                "Unable to send email. \n" +
-                "You may need to configure your system as " +
-                "described in chapter 15. \n" +
-                "Here is the email you tried to send: \n" +
-                "=====================================\n" +
-                "TO: " + to + "\n" +
-                "FROM: " + from + "\n" +
-                "SUBJECT: " + subject + "\n" +
-                "\n" +
-                body + "\n\n");
+                    "Unable to send email. \n" +
+                            "You may need to configure your system as " +
+                            "described in chapter 15. \n" +
+                            "Here is the email you tried to send: \n" +
+                            "=====================================\n" +
+                            "TO: " + to + "\n" +
+                            "FROM: " + from + "\n" +
+                            "SUBJECT: " + subject + "\n" +
+                            "\n" +
+                            body + "\n\n");
         }
-        
+
         return "/cart/complete.jsp";
-    }    
+    }
 }

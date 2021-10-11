@@ -76,9 +76,9 @@
         <module name="ch10_ex2_cart_sol" />
         <module name="ch05email" />
         <module name="ch09_ex1_download_sol" />
-        <module name="ch13email" />
         <module name="ch19_ex1_cart_sol" />
         <module name="ch20_ex1_download" />
+        <module name="ch13email" />
         <module name="musicStoreJPA" />
       </profile>
     </annotationProcessing>
@@ -155,7 +155,7 @@
       <module name="ch21email" target="16" />
       <module name="ch21message" target="1.8" />
       <module name="musicStore" target="16" />
-      <module name="musicStoreJPA" target="1.8" />
+      <module name="musicStoreJPA" target="16" />
       <module name="testApp" target="16" />
     </bytecodeTargetLevel>
   </component>

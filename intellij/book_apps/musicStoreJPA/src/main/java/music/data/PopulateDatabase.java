@@ -51,11 +51,11 @@ public class PopulateDatabase {
         Map props = new HashMap();
         props.put(TRANSACTION_TYPE,
                 PersistenceUnitTransactionType.RESOURCE_LOCAL.name());
-        props.put(JDBC_DRIVER, "com.mysql.jdbc.Driver");
+        props.put(JDBC_DRIVER, "com.mysql.cj.jdbc.Driver");
         props.put(JDBC_URL,
                 "jdbc:mysql://localhost:3306/music_jpa?zeroDateTimeBehavior=convertToNull");
         props.put(JDBC_USER, "root");
-        props.put(JDBC_PASSWORD, "sesame");
+        props.put(JDBC_PASSWORD, "password");
         props.put(TARGET_SERVER, TargetServer.None);
         
         emf = Persistence.createEntityManagerFactory("musicStorePU", props);

@@ -27,7 +27,7 @@
           Connection, Statement, ResultSet, etc. objects that haven't been closed
           -->
     <Resource name="jdbc/murach" auth="Container"
-              driverClassName="com.mysql.cj.jdbc.Driver"
+              driverClassName="com.mysql.jdbc.Driver"
               url="jdbc:mysql://localhost:3306/murach"
               username="root" password="password"
               maxActive="100" maxIdle="30" maxWait="10000"

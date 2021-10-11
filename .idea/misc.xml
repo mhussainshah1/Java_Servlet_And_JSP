@@ -92,7 +92,6 @@
         <option value="$PROJECT_DIR$/intellij/book_apps/ch09email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch10email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch12email/pom.xml" />
-        <option value="$PROJECT_DIR$/intellij/book_apps/ch13email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch14email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch15email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch16admin/pom.xml" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch07_ex1_download_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch09_ex1_download_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/pom.xml" />
+        <option value="$PROJECT_DIR$/intellij/book_apps/ch13email/pom.xml" />
       </list>
     </option>
   </component>
