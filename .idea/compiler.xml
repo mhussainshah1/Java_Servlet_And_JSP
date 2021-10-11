@@ -24,7 +24,6 @@
         <module name="testApp" />
         <module name="ch07download" />
         <module name="ch07_ex1_download_sol" />
-        <module name="ch13_ex2_userAdmin" />
         <module name="ch10_ex1_email_sol" />
         <module name="ch05_ex2_email" />
         <module name="ch21_ex1_email_sol" />
@@ -56,7 +55,6 @@
         <module name="ch10_ex2_cart" />
         <module name="ch10_ex1_email" />
         <module name="ch08email" />
-        <module name="ch13_ex2_userAdmin_sol" />
         <module name="ch02email" />
         <module name="ch07_ex2_download" />
         <module name="musicStore" />

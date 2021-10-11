@@ -9,13 +9,13 @@ import jakarta.persistence.Id;
 @Entity
 public class User implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long userId;
     private String email;
     private String firstName;
     private String lastName;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getUserId() {
         return userId;
     }
@@ -23,7 +23,7 @@ public class User implements Serializable {
     public void setUserId(Long userId) {
         this.userId = userId;
     }
-    
+
     public String getEmail() {
         return email;
     }
