@@ -151,6 +151,8 @@
         <option value="$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch13email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex1_email_sol/pom.xml" />
+        <option value="$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/pom.xml" />
+        <option value="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/pom.xml" />
       </list>
     </option>
   </component>

@@ -478,7 +478,7 @@
           <factory-entry name="emailListPU" />
         </datasource-mapping>
         <naming-strategy-map />
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/netbeans/ex_solutions/ch21_ex1_email_sol/src/conf/persistence.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
     <facet type="web" name="Web49">

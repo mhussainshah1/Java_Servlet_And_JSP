@@ -3,10 +3,8 @@
     <output-path>$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <exploded>false</exploded>
         <module>ch13_ex2_userAdmin</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="ch13_ex2_userAdmin-1.0-SNAPSHOT.war">

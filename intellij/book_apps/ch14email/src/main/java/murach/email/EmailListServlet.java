@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import murach.business.User;
 import murach.data.UserDB;
+import murach.util.MailUtilGmail;
 import murach.util.MailUtilLocal;
 
 import java.io.IOException;
@@ -50,7 +51,7 @@ public class EmailListServlet extends HttpServlet {
             boolean isBodyHTML = false;
 
             try {
-                MailUtilLocal.sendMail(to, from, subject, body, isBodyHTML);
+                MailUtilGmail.sendMail(to, from, subject, body, isBodyHTML);
             } catch (MessagingException e) {
                 String errorMessage
                         = "ERROR: Unable to send email. "

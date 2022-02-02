@@ -36,7 +36,7 @@ public class MailUtilYahoo {
 
         // 4 - send the message
         Transport transport = session.getTransport();
-        transport.connect("johnsmith@yahoo.com", "sesame");
+        transport.connect("mhussainshah@yahoo.com", "**********");
         transport.sendMessage(message, message.getAllRecipients());
         transport.close();
     }

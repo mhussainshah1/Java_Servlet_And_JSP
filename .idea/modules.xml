@@ -47,6 +47,8 @@
       <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch12sqlGateway/ch12sqlGateway.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch12sqlGateway/ch12sqlGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch13_ex1_email/ch13_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch13_ex1_email/ch13_ex1_email.iml" />
       <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch13_ex1_email_sol/ch13_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex1_email_sol/ch13_ex1_email_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/ch13_ex2_userAdmin.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/ch13_ex2_userAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/ch13_ex2_userAdmin_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/ch13_ex2_userAdmin_sol.iml" />
       <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch13email/ch13email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch13email/ch13email.iml" />
       <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch14_ex1_email/ch14_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch14_ex1_email/ch14_ex1_email.iml" />
       <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch14email/ch14email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch14email/ch14email.iml" />
