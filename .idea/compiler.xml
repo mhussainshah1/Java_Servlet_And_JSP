@@ -91,7 +91,7 @@
       <module name="ch05_ex1_email_sol" target="17" />
       <module name="ch05_ex2_email" target="17" />
       <module name="ch05_ex2_email_sol" target="17" />
-      <module name="ch05email" target="16" />
+      <module name="ch05email" target="17" />
       <module name="ch06_ex1_email" target="17" />
       <module name="ch06_ex1_email_sol" target="17" />
       <module name="ch06_ex2_survey" target="17" />
@@ -103,7 +103,7 @@
       <module name="ch07_ex2_download_sol" target="17" />
       <module name="ch07_ex3_cart" target="17" />
       <module name="ch07_ex3_cart_sol" target="17" />
-      <module name="ch07cart" target="16" />
+      <module name="ch07cart" target="17" />
       <module name="ch07download" target="17" />
       <module name="ch08_ex1_email" target="17" />
       <module name="ch08_ex1_email_sol" target="17" />

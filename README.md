@@ -3,9 +3,9 @@
 
 Murach's Publishers - Java Servlet and JSP - 3rd Edition 
     
-- JDK 16
+- JDK 17
 - Tomcat 10.0.6 
-- Idea IntelliJ 2021.3
+- Idea IntelliJ 2021.3.2
 - MySQL
 - WorkBench 8.0
 
