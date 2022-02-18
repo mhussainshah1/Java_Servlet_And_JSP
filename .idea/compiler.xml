@@ -83,80 +83,80 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ch02email" target="16" />
-      <module name="ch04_ex1_survey" target="16" />
-      <module name="ch04_ex1_survey_sol" target="16" />
-      <module name="ch04email" target="1.8" />
-      <module name="ch05_ex1_email" target="16" />
-      <module name="ch05_ex1_email_sol" target="16" />
-      <module name="ch05_ex2_email" target="16" />
-      <module name="ch05_ex2_email_sol" target="16" />
+      <module name="ch02email" target="17" />
+      <module name="ch04_ex1_survey" target="17" />
+      <module name="ch04_ex1_survey_sol" target="17" />
+      <module name="ch04email" target="17" />
+      <module name="ch05_ex1_email" target="17" />
+      <module name="ch05_ex1_email_sol" target="17" />
+      <module name="ch05_ex2_email" target="17" />
+      <module name="ch05_ex2_email_sol" target="17" />
       <module name="ch05email" target="16" />
-      <module name="ch06_ex1_email" target="16" />
-      <module name="ch06_ex1_email_sol" target="16" />
-      <module name="ch06_ex2_survey" target="16" />
-      <module name="ch06_ex2_survey_sol" target="16" />
-      <module name="ch06email" target="16" />
-      <module name="ch07_ex1_download" target="16" />
-      <module name="ch07_ex1_download_sol" target="16" />
-      <module name="ch07_ex2_download" target="16" />
-      <module name="ch07_ex2_download_sol" target="16" />
-      <module name="ch07_ex3_cart" target="16" />
-      <module name="ch07_ex3_cart_sol" target="16" />
+      <module name="ch06_ex1_email" target="17" />
+      <module name="ch06_ex1_email_sol" target="17" />
+      <module name="ch06_ex2_survey" target="17" />
+      <module name="ch06_ex2_survey_sol" target="17" />
+      <module name="ch06email" target="17" />
+      <module name="ch07_ex1_download" target="17" />
+      <module name="ch07_ex1_download_sol" target="17" />
+      <module name="ch07_ex2_download" target="17" />
+      <module name="ch07_ex2_download_sol" target="17" />
+      <module name="ch07_ex3_cart" target="17" />
+      <module name="ch07_ex3_cart_sol" target="17" />
       <module name="ch07cart" target="16" />
-      <module name="ch07download" target="16" />
-      <module name="ch08_ex1_email" target="16" />
-      <module name="ch08_ex1_email_sol" target="16" />
-      <module name="ch08email" target="16" />
-      <module name="ch09_ex1_download" target="16" />
-      <module name="ch09_ex1_download_sol" target="16" />
-      <module name="ch09_ex2_cart" target="16" />
-      <module name="ch09_ex2_cart_sol" target="16" />
-      <module name="ch09cart" target="16" />
-      <module name="ch09email" target="16" />
-      <module name="ch10_ex1_email" target="16" />
-      <module name="ch10_ex1_email_sol" target="16" />
-      <module name="ch10_ex2_cart" target="16" />
-      <module name="ch10_ex2_cart_sol" target="16" />
-      <module name="ch10cart" target="16" />
-      <module name="ch10email" target="16" />
-      <module name="ch12_ex1_sqlGateway" target="16" />
-      <module name="ch12_ex1_sqlGateway_sol" target="16" />
-      <module name="ch12_ex2_userAdmin" target="16" />
-      <module name="ch12_ex2_userAdmin_sol" target="16" />
-      <module name="ch12email" target="16" />
-      <module name="ch12sqlGateway" target="16" />
-      <module name="ch13_ex1_email" target="16" />
-      <module name="ch13_ex1_email_sol" target="16" />
-      <module name="ch13_ex2_userAdmin" target="16" />
-      <module name="ch13_ex2_userAdmin_sol" target="16" />
-      <module name="ch13email" target="16" />
-      <module name="ch14_ex1_email" target="16" />
-      <module name="ch14email" target="16" />
-      <module name="ch15_ex1_email" target="16" />
-      <module name="ch15email" target="16" />
-      <module name="ch16_ex1_admin" target="16" />
-      <module name="ch16_ex1_admin_sol" target="16" />
-      <module name="ch16admin" target="16" />
-      <module name="ch17_ex1_password" target="16" />
+      <module name="ch07download" target="17" />
+      <module name="ch08_ex1_email" target="17" />
+      <module name="ch08_ex1_email_sol" target="17" />
+      <module name="ch08email" target="17" />
+      <module name="ch09_ex1_download" target="17" />
+      <module name="ch09_ex1_download_sol" target="17" />
+      <module name="ch09_ex2_cart" target="17" />
+      <module name="ch09_ex2_cart_sol" target="17" />
+      <module name="ch09cart" target="17" />
+      <module name="ch09email" target="17" />
+      <module name="ch10_ex1_email" target="17" />
+      <module name="ch10_ex1_email_sol" target="17" />
+      <module name="ch10_ex2_cart" target="17" />
+      <module name="ch10_ex2_cart_sol" target="17" />
+      <module name="ch10cart" target="17" />
+      <module name="ch10email" target="17" />
+      <module name="ch12_ex1_sqlGateway" target="17" />
+      <module name="ch12_ex1_sqlGateway_sol" target="17" />
+      <module name="ch12_ex2_userAdmin" target="17" />
+      <module name="ch12_ex2_userAdmin_sol" target="17" />
+      <module name="ch12email" target="17" />
+      <module name="ch12sqlGateway" target="17" />
+      <module name="ch13_ex1_email" target="17" />
+      <module name="ch13_ex1_email_sol" target="17" />
+      <module name="ch13_ex2_userAdmin" target="17" />
+      <module name="ch13_ex2_userAdmin_sol" target="17" />
+      <module name="ch13email" target="17" />
+      <module name="ch14_ex1_email" target="17" />
+      <module name="ch14email" target="17" />
+      <module name="ch15_ex1_email" target="17" />
+      <module name="ch15email" target="17" />
+      <module name="ch16_ex1_admin" target="17" />
+      <module name="ch16_ex1_admin_sol" target="17" />
+      <module name="ch16admin" target="17" />
+      <module name="ch17_ex1_password" target="17" />
       <module name="ch17password" target="1.8" />
-      <module name="ch18_ex1_http" target="16" />
-      <module name="ch18_ex1_http_old" target="16" />
+      <module name="ch18_ex1_http" target="17" />
+      <module name="ch18_ex1_http_old" target="17" />
       <module name="ch18http" target="1.8" />
-      <module name="ch19_ex1_cart" target="16" />
-      <module name="ch19_ex1_cart_sol" target="16" />
+      <module name="ch19_ex1_cart" target="17" />
+      <module name="ch19_ex1_cart_sol" target="17" />
       <module name="ch19cart" target="1.8" />
-      <module name="ch20_ex1_download" target="16" />
-      <module name="ch20_ex1_download_sol" target="16" />
+      <module name="ch20_ex1_download" target="17" />
+      <module name="ch20_ex1_download_sol" target="17" />
       <module name="ch20download" target="1.8" />
       <module name="ch20security" target="1.8" />
-      <module name="ch21_ex1_email" target="16" />
-      <module name="ch21_ex1_email_sol" target="16" />
+      <module name="ch21_ex1_email" target="17" />
+      <module name="ch21_ex1_email_sol" target="17" />
       <module name="ch21email" target="16" />
       <module name="ch21message" target="1.8" />
       <module name="musicStore" target="16" />
       <module name="musicStoreJPA" target="16" />
-      <module name="testApp" target="16" />
+      <module name="testApp" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
