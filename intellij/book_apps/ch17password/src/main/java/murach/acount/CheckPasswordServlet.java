@@ -2,8 +2,8 @@ package murach.acount;
 
 import java.io.*;
 import java.security.NoSuchAlgorithmException;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
 import murach.util.PasswordUtil;
 

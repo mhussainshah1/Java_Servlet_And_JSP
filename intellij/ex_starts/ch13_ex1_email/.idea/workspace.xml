@@ -10,38 +10,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0922de87-cc28-4ad0-bb77-28eb3b0d10f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch13_ex1_email_sol_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch13_ex1_email_sol_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../book_apps/musicStoreJPA/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/musicStoreJPA/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/ch13_ex1_email_sol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/ch13_ex1_email_sol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/java/murach/business/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/java/murach/data/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/java/murach/data/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/java/murach/data/UserDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/java/murach/data/UserDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/java/murach/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/java/murach/email/EmailListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch13_ex1_email_sol/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/target/ch19cart-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/target/ch19cart-1.0-SNAPSHOT/WEB-INF/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/target/ch19cart-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/target/ch19cart-1.0-SNAPSHOT/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/target/ch19cart-1.0-SNAPSHOT/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/target/ch19cart-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/target/ch19cart-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/artifacts/ch13email_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/artifacts/ch13email_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/artifacts/ch13email_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/artifacts/ch13email_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/ch13email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/ch13email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/target/ch13email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/target/ch13email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/target/ch13email-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/target/ch13email-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch13email/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch13email/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch14email/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch14email/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/java/murach/business/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/java/murach/business/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/java/murach/business/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/java/murach/business/LineItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/java/murach/business/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/java/murach/business/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/java/murach/cart/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/java/murach/cart/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/java/murach/data/ProductIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/java/murach/data/ProductIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/java/murach/util/CartContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/java/murach/util/CartContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/webapp/WEB-INF/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/webapp/WEB-INF/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/webapp/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/webapp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/webapp/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch19cart/src/webapp/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch19cart/src/main/webapp/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1ffaaf8-47e3-48a1-9db5-02179c7e73bf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b1ffaaf8-47e3-48a1-9db5-02179c7e73bf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch13_ex1_email.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/business/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/thanks.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch13_ex1_email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch13_ex2_userAdmin/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch13_ex2_userAdmin/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch13_ex2_userAdmin/.idea/dataSources/9bc594fc-a358-4e8e-b97a-8161712d493d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch13_ex2_userAdmin/.idea/dataSources/9bc594fc-a358-4e8e-b97a-8161712d493d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch13_ex2_userAdmin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch13_ex2_userAdmin/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch13_ex2_userAdmin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch13_ex2_userAdmin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch13_ex2_userAdmin/target/ch13_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../ch13_ex2_userAdmin/target/ch13_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14_ex1_email/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch14_ex1_email/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +80,7 @@
         <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
@@ -71,6 +88,7 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -80,6 +98,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1zJAiyo3ltAuAWLR5Jwuef9xXTf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -98,11 +119,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../book_apps/ch12email" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -216,6 +240,7 @@
       <workItem from="1633855950885" duration="1307000" />
       <workItem from="1633928860351" duration="153000" />
       <workItem from="1633929141647" duration="412000" />
+      <workItem from="1645637460114" duration="607000" />
     </task>
     <servers />
   </component>
@@ -232,7 +257,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

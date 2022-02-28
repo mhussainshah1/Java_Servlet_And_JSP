@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ch04_ex1_survey" target="16" />
+      <module name="ch04_ex1_survey" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

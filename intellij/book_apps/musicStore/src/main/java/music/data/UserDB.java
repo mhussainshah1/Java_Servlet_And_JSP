@@ -1,8 +1,8 @@
 package music.data;
 
-import java.sql.*;
+import music.business.User;
 
-import music.business.*;
+import java.sql.*;
 
 public class UserDB {
 
@@ -34,9 +34,9 @@ public class UserDB {
             ps.setString(11, user.getCreditCardType());
             ps.setString(12, user.getCreditCardNumber());
             ps.setString(13, user.getCreditCardExpirationDate());
-            
+
             ps.executeUpdate();
-            
+
             //Get the user ID from the last INSERT statement.
             String identityQuery = "SELECT @@IDENTITY AS IDENTITY";
             Statement identityStatement = connection.createStatement();
@@ -63,20 +63,22 @@ public class UserDB {
         PreparedStatement ps = null;
         ResultSet rs = null;
 
-        String query = "UPDATE User SET "
-                + "FirstName = ?, "
-                + "LastName = ?, "
-                + "CompanyName = ?, "
-                + "Address1 = ?, "
-                + "Address2 = ?, "
-                + "City = ?, "
-                + "State = ?, "
-                + "Zip = ?, "
-                + "Country = ?, "
-                + "CreditCardType = ?, "
-                + "CreditCardNumber = ?, "
-                + "CreditCardExpirationDate = ? "
-                + "WHERE Email = ?";
+        String query = """
+                UPDATE User 
+                SET FirstName = ?, 
+                LastName = ?, 
+                CompanyName = ?, 
+                Address1 = ?, 
+                Address2 = ?, 
+                City = ?, 
+                State = ?, 
+                Zip = ?, 
+                Country = ?, 
+                CreditCardType = ?, 
+                CreditCardNumber = ?, 
+                CreditCardExpirationDate = ? 
+                WHERE Email = ?
+                """;
         try {
             ps = connection.prepareStatement(query);
             ps.setString(1, user.getFirstName());
@@ -143,7 +145,7 @@ public class UserDB {
             pool.freeConnection(connection);
         }
     }
-    
+
     public static boolean emailExists(String email) {
         ConnectionPool pool = ConnectionPool.getInstance();
         Connection connection = pool.getConnection();
@@ -165,5 +167,5 @@ public class UserDB {
             DBUtil.closePreparedStatement(ps);
             pool.freeConnection(connection);
         }
-    }    
+    }
 }

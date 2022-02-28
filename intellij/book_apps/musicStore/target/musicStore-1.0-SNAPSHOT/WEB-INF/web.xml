@@ -95,11 +95,9 @@
         </auth-constraint>
         
         <!-- Forces a secure connection - remove comments to enable -->
-        <!--
         <user-data-constraint>
             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
         </user-data-constraint>
-        -->        
     </security-constraint>
 
     <!-- Use form-based authentication to provide access -->

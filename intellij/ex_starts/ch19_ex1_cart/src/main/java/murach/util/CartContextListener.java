@@ -1,6 +1,6 @@
 package murach.util;
 
-import javax.servlet.*;
+import jakarta.servlet.*;
 import java.util.*;
 
 import murach.business.*;

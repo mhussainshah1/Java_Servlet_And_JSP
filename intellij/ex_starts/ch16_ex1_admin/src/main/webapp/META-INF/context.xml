@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch16_ex1_admin">
+
+<!--    <Realm className="org.apache.catalina.realm.JDBCRealm"
+           connectionName="root" connectionPassword="sesame"
+           connectionURL="jdbc:mysql://localhost:3306/murach"
+           debug="99" driverName="com.mysql.jdbc.Driver"
+           userTable="UserPass" userNameCol="Username" userCredCol="Password"
+           roleNameCol="Rolename" userRoleTable="UserRole"
+    />-->
+    <!-- the murach database that contains admin usernames and passwords -->
+    <Resource name="jdbc/murachDB" type="javax.sql.DataSource" auth="Container"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/murach?autoReconnect=true"
+              username="root" password="password"
+              logAbandoned="true"
+              removeAbandoned="true" removeAbandonedTimeout="60"
+              maxActive="100" maxIdle="30" maxWait="10000"/>
+
+    <Realm dataSourceName="jdbc/murachDB" localDataSource="true"
+           className="org.apache.catalina.realm.DataSourceRealm"
+           userTable="UserPass" userRoleTable="UserRole"
+           userNameCol="Username" roleNameCol="Rolename" userCredCol="Password"
+           debug="99"/>
+</Context>

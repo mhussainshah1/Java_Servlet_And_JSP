@@ -145,7 +145,7 @@
       <module name="ch18http" target="1.8" />
       <module name="ch19_ex1_cart" target="17" />
       <module name="ch19_ex1_cart_sol" target="17" />
-      <module name="ch19cart" target="1.8" />
+      <module name="ch19cart" target="17" />
       <module name="ch20_ex1_download" target="17" />
       <module name="ch20_ex1_download_sol" target="17" />
       <module name="ch20download" target="1.8" />

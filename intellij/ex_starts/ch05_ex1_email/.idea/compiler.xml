@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ch05_ex1_email" target="16" />
+      <module name="ch05_ex1_email" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

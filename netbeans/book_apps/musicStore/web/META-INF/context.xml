@@ -4,7 +4,7 @@
   <Resource name="jdbc/musicDB" type="javax.sql.DataSource" auth="Container" 
             driverClassName="com.mysql.jdbc.Driver" 
             url="jdbc:mysql://localhost:3306/music?autoReconnect=true" 
-            username="root" password="sesame" 
+            username="root" password="password" 
             logAbandoned="true" 
             removeAbandoned="true" removeAbandonedTimeout="60" 
             maxActive="100" maxIdle="30" maxWait="10000" />
@@ -13,7 +13,7 @@
   <Resource name="jdbc/murachDB" type="javax.sql.DataSource" auth="Container" 
             driverClassName="com.mysql.jdbc.Driver" 
             url="jdbc:mysql://localhost:3306/murach?autoReconnect=true" 
-            username="root" password="sesame" 
+            username="root" password="password" 
             logAbandoned="true" 
             removeAbandoned="true" removeAbandonedTimeout="60" 
             maxActive="100" maxIdle="30" maxWait="10000" />

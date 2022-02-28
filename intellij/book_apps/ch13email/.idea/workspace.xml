@@ -10,153 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83598df5-eea1-4931-998e-b867dea464f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch13email_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch13email_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/admin/invoice.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/admin/invoices.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/admin/parameters.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/admin/reports.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/cart/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/cart/complete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/cart/credit_card.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/cart/invoice.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/cart/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/8601/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/8601/sound.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/jr01/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/jr01/sound.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/pf01/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/pf01/sound.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/pf02/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/pf02/sound.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/catalog/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/customer_service/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/delete_cookies.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/email/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/email/thanks.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/error_404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/error_java.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/error_sql.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/8601_cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/8601_cover_t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/addtocart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/albuminfo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/jr01_cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/jr01_cover_t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/listen.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/pf01_cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/pf01_cover_t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/pf02_cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/images/pf02_cover_t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_left_admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_left_all.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_left_all_absolute.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_left_catalog.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_left_cust_serv.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_left_email.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_left_home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_right_buttons.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/column_right_news.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/includes/product_table.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/login_error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/sound/8601/no_difference.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/sound/8601/star.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/sound/jr01/filter.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/sound/jr01/so_long.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/sound/pf01/corvair.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/sound/pf01/whiskey.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/sound/pf02/neon.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/sound/pf02/tank.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.jpb/jpb-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/webapp/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/target/ch13_ex1_email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/target/ch13_ex1_email-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/target/ch13_ex1_email-1.0-SNAPSHOT/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/target/ch13_ex1_email-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/target/ch13_ex1_email-1.0-SNAPSHOT/thanks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch12email/target/ch12email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/target/musicStoreJPA-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch12email/target/ch12email-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch12email/target/ch12email-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/target/ch13_ex1_email-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch12email/target/ch12email-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch12email/target/ch12email-1.0-SNAPSHOT/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/target/ch13_ex1_email-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch12email/target/ch12email-1.0-SNAPSHOT/thanks.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ch13email_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ch13email_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ch13email_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ch13email_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch13email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch13email.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/business/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/data/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/data/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/data/UserDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/data/UserDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/email/EmailListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/musicStoreJPA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/conf/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/conf/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/controllers/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/controllers/CatalogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/controllers/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/data/InvoiceDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/data/InvoiceDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/data/PopulateDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/data/PopulateDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/data/UserDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/java/music/data/UserDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/webapp/WEB-INF/lib/javax.mail.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/webapp/WEB-INF/lib/poi-3.10-FINAL-20140208.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/webapp/WEB-INF/lib/tomcat-dbcp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/webapp/lib/mail.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/src/main/webapp/lib/poi-3.10-FINAL-20140208.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch04_ex1_survey_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch04_ex1_survey_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch05_ex1_email_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch05_ex1_email_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch05_ex2_email_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch05_ex2_email_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/ch13_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/ch13_ex1_email.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/java/murach/business/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/java/murach/data/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/java/murach/data/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/java/murach/data/UserDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/java/murach/data/UserDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/java/murach/email/EmailListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/java/murach/email/EmailListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/webapp/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/webapp/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/webapp/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch13_ex1_email/src/main/webapp/thanks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch13email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch13email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch13email-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch13email-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +36,7 @@
         <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
@@ -179,6 +44,7 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -188,6 +54,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1zHrnWBidynLnuMFFuWq1pZHTSB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -205,13 +74,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch14email" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3264368" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
@@ -341,6 +210,8 @@
       <workItem from="1633859727524" duration="722000" />
       <workItem from="1633894268929" duration="605000" />
       <workItem from="1633904334968" duration="4278000" />
+      <workItem from="1645578737335" duration="384000" />
+      <workItem from="1645579181426" duration="238000" />
     </task>
     <servers />
   </component>
@@ -357,9 +228,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ch13email$Tomcat_10_0_12.ic" NAME="Tomcat 10.0.12 Coverage Results" MODIFIED="1645578939772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

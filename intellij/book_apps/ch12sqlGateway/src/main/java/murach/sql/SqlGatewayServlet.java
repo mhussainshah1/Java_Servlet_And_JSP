@@ -18,7 +18,7 @@ public class SqlGatewayServlet extends HttpServlet {
         String sqlResult = "";
         try {
             // load the driver
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             // get a connection
             String dbURL = "jdbc:mysql://localhost:3306/murach";

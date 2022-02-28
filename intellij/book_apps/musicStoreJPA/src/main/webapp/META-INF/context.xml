@@ -10,7 +10,9 @@
               url="jdbc:mysql://localhost:3306/murach?autoReconnect=true"
               username="root"/>
 
-    <Realm className="org.apache.catalina.realm.DataSourceRealm" dataSourceName="jdbc/murachDB" debug="99"
-           localDataSource="true" roleNameCol="Rolename" userCredCol="Password" userNameCol="Username"
+    <Realm className="org.apache.catalina.realm.DataSourceRealm"
+           dataSourceName="jdbc/murachDB" debug="99"
+           localDataSource="true"
+           roleNameCol="Rolename" userCredCol="Password" userNameCol="Username"
            userRoleTable="UserRole" userTable="UserPass"/>
 </Context>
