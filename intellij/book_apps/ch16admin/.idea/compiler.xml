@@ -9,5 +9,8 @@
         <module name="ch16admin" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch16admin" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

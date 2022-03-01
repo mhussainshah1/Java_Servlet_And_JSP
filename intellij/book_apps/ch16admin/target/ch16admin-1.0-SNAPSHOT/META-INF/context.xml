@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/ch16admin">
-    <!-- The JDBC Database Realm has been deprecated in Tomcat 9 and removed in Tomcat 10 onwards. -->
-    <!-- <Realm className="org.apache.catalina.realm.JDBCRealm"
-            connectionName="root" connectionPassword="password"
-            connectionURL="jdbc:mysql://localhost:3306/murach"
-            debug="99" driverName="com.mysql.cj.jdbc.Driver"
-            roleNameCol="Rolename" userCredCol="Password" userNameCol="Username"
-            userRoleTable="UserRole" userTable="UserPass"/>-->
+    <!--<Realm className="org.apache.catalina.realm.JDBCRealm"
+           connectionName="root" connectionPassword="password"
+           connectionURL="jdbc:mysql://localhost:3306/murach"
+           debug="99" driverName="com.mysql.cj.jdbc.Driver"
+           roleNameCol="Rolename" userCredCol="Password" userNameCol="Username"
+           userRoleTable="UserRole" userTable="UserPass"/>-->
 
     <!-- the murach database that contains admin usernames and passwords -->
     <Resource name="jdbc/murachDB" type="javax.sql.DataSource" auth="Container"
@@ -14,14 +13,11 @@
               url="jdbc:mysql://localhost:3306/murach?autoReconnect=true"
               username="root" password="password"
               logAbandoned="true"
-              removeAbandoned="true" removeAbandonedTimeout="60"
-              maxActive="100" maxIdle="30" maxWait="10000"/>
+              removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true" removeAbandonedTimeout="60"
+              maxTotal="100" maxIdle="30" maxWaitMillis="10000"/>
 
     <Realm dataSourceName="jdbc/murachDB" localDataSource="true"
            className="org.apache.catalina.realm.DataSourceRealm"
-           debug="99"
            userTable="UserPass" userNameCol="Username" userCredCol="Password"
-           userRoleTable="UserRole" roleNameCol="Rolename"
-           />
-
+           userRoleTable="UserRole" roleNameCol="Rolename"/>
 </Context>

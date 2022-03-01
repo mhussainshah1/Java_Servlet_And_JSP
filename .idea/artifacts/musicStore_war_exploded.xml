@@ -20,8 +20,8 @@
           <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0" />
           <element id="library" level="project" name="Maven: com.sun.mail:jakarta.mail:2.0.1" />
           <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:2.0.1" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-dbcp:10.0.12" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:10.0.12" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-dbcp:10.0.14" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:10.0.14" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi:5.0.0" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.30" />

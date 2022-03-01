@@ -26,9 +26,9 @@
             <role-name>service</role-name>
         </auth-constraint>
         <!-- Require a secure connection -->
-<!--        <user-data-constraint>
+        <user-data-constraint>
             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
-        </user-data-constraint>-->
+        </user-data-constraint>
     </security-constraint>
 
     <!-- Use form-based authentication -->
@@ -41,13 +41,17 @@
     </login-config>
     
     <!-- Use basic authentication -->
-    <!--
-    <login-config>
+ <!--   <login-config>
         <auth-method>BASIC</auth-method>
         <realm-name>Admin Login</realm-name>
-    </login-config>
-    -->    
-             
+    </login-config>-->
+
+    <!-- Use digest authentication -->
+<!--    <login-config>
+        <auth-method>DIGEST</auth-method>
+        <realm-name>Admin Login</realm-name>
+    </login-config>-->
+
     <session-config>
         <session-timeout>30</session-timeout>
     </session-config>

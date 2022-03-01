@@ -139,22 +139,22 @@
       <module name="ch16_ex1_admin_sol" target="17" />
       <module name="ch16admin" target="17" />
       <module name="ch17_ex1_password" target="17" />
-      <module name="ch17password" target="1.8" />
+      <module name="ch17password" target="17" />
       <module name="ch18_ex1_http" target="17" />
       <module name="ch18_ex1_http_old" target="17" />
-      <module name="ch18http" target="1.8" />
+      <module name="ch18http" target="17" />
       <module name="ch19_ex1_cart" target="17" />
       <module name="ch19_ex1_cart_sol" target="17" />
       <module name="ch19cart" target="17" />
       <module name="ch20_ex1_download" target="17" />
       <module name="ch20_ex1_download_sol" target="17" />
-      <module name="ch20download" target="1.8" />
-      <module name="ch20security" target="1.8" />
+      <module name="ch20download" target="17" />
+      <module name="ch20security" target="17" />
       <module name="ch21_ex1_email" target="17" />
       <module name="ch21_ex1_email_sol" target="17" />
-      <module name="ch21email" target="16" />
+      <module name="ch21email" target="17" />
       <module name="ch21message" target="1.8" />
-      <module name="musicStore" target="16" />
+      <module name="musicStore" target="17" />
       <module name="musicStoreJPA" target="16" />
       <module name="testApp" target="17" />
     </bytecodeTargetLevel>
