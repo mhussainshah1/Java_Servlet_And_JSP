@@ -19,7 +19,7 @@
           <element id="library" level="project" name="Maven: jakarta.el:jakarta.el-api:4.0.0" />
           <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0" />
           <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:2.0.0" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.jpa:3.0.2" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.asm:9.1.0" />

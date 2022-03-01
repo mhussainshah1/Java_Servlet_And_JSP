@@ -153,7 +153,7 @@
       <module name="ch21_ex1_email" target="17" />
       <module name="ch21_ex1_email_sol" target="17" />
       <module name="ch21email" target="17" />
-      <module name="ch21message" target="1.8" />
+      <module name="ch21message" target="17" />
       <module name="musicStore" target="17" />
       <module name="musicStoreJPA" target="16" />
       <module name="testApp" target="17" />
