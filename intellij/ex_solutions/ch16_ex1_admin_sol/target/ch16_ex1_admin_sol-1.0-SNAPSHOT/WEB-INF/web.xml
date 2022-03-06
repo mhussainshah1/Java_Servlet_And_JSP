@@ -27,10 +27,6 @@
             <role-name>service</role-name>
         </auth-constraint>
 
-        <!-- Require a secure connection -->
-<!--        <user-data-constraint>
-            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
-        </user-data-constraint>-->
     </security-constraint>
 
     <!-- Use form-based authentication -->
