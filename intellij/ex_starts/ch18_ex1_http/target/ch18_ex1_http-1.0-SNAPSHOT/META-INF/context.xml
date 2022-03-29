@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch18_ex1_http">
+    <Resource name="jdbc/murach"
+              auth="Container"
+              url="jdbc:mysql://localhost:3306/murach"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="root" password="password"
+              logAbandoned="true" removeAbandoned="true" removeAbandonedTimeout="60"
+              type="javax.sql.DataSource"
+    />
+</Context>
