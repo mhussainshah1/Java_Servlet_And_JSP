@@ -2,9 +2,9 @@ package murach.http;
 
 import java.io.*;
 import java.util.*;
-import javax.servlet.*;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.*;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
@@ -21,10 +21,10 @@ public class RequestHeadersSpreadsheetServlet extends HttpServlet {
         Workbook workbook = new HSSFWorkbook();
         Sheet sheet = workbook.createSheet("Request Headers");
 
-        Enumeration headerNames = request.getHeaderNames();
+        Enumeration<String> headerNames = request.getHeaderNames();
         int i = 0;
         while (headerNames.hasMoreElements()) {
-            String name = (String) headerNames.nextElement();
+            String name =  headerNames.nextElement();
             String value = request.getHeader(name);
 
             // create the row and store data in its cells
