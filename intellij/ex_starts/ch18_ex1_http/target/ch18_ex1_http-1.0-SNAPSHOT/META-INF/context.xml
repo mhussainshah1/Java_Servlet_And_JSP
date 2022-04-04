@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/ch18_ex1_http">
-    <Resource name="jdbc/murach"
-              auth="Container"
-              url="jdbc:mysql://localhost:3306/murach"
-              driverClassName="com.mysql.cj.jdbc.Driver"
-              maxActive="100" maxIdle="30" maxWait="10000"
-              username="root" password="password"
-              logAbandoned="true" removeAbandoned="true" removeAbandonedTimeout="60"
-              type="javax.sql.DataSource"
-    />
+<Resource name="jdbc/murach" auth="Container"
+          driverClassName="com.mysql.cj.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/murach"
+          username="root" password="password"
+          logAbandoned="true" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true" removeAbandonedTimeout="60"
+          maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+          type="javax.sql.DataSource"
+/>
 </Context>

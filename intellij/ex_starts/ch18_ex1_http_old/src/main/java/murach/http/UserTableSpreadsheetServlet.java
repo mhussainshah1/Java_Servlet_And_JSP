@@ -2,9 +2,9 @@ package murach.http;
 
 import murach.data.ConnectionPool;
 import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.WebServlet;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
+import jakarta.servlet.annotation.WebServlet;
 
 import java.sql.*;
 
