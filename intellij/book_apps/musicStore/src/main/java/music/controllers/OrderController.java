@@ -8,7 +8,7 @@ import music.data.InvoiceDB;
 import music.data.ProductDB;
 import music.data.UserDB;
 import music.util.CookieUtil;
-import music.util.MailUtil;
+import music.util.MailUtilGmail;
 
 import java.io.IOException;
 
@@ -273,7 +273,8 @@ public class OrderController extends HttpServlet {
                 "Fresh Corn Records";
         boolean isBodyHTML = false;
         try {
-            MailUtil.sendMail(to, from, subject, body, isBodyHTML);
+//            MailUtil.sendMail(to, from, subject, body, isBodyHTML);
+            MailUtilGmail.sendMail(to, from, subject, body, isBodyHTML);
         } catch (MessagingException e) {
             this.log(
                     "Unable to send email. \n" +

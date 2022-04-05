@@ -53,7 +53,7 @@ public class AdminController extends HttpServlet {
 
     private String displayInvoices(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        List<Invoice> unprocessedInvoices                = InvoiceDB.selectUnprocessedInvoices();
+        List<Invoice> unprocessedInvoices = InvoiceDB.selectUnprocessedInvoices();
 
         String url;
         if (unprocessedInvoices != null) {

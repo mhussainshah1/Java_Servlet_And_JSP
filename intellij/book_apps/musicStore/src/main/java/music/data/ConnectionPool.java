@@ -1,20 +1,15 @@
 package music.data;
 
-import java.sql.*;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
 import javax.sql.DataSource;
-import javax.naming.*;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 public class ConnectionPool {
 
     private static ConnectionPool pool = null;
     private static DataSource dataSource = null;
-
-    public synchronized static ConnectionPool getInstance() {
-        if (pool == null) {
-            pool = new ConnectionPool();
-        }
-        return pool;
-    }
 
     private ConnectionPool() {
         try {
@@ -23,6 +18,13 @@ public class ConnectionPool {
         } catch (NamingException e) {
             System.err.println(e);
         }
+    }
+
+    public synchronized static ConnectionPool getInstance() {
+        if (pool == null) {
+            pool = new ConnectionPool();
+        }
+        return pool;
     }
 
     public Connection getConnection() {

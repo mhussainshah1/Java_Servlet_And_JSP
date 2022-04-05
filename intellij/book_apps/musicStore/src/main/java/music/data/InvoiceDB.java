@@ -1,9 +1,12 @@
 package music.data;
 
-import java.sql.*;
-import java.util.*;
+import music.business.Invoice;
+import music.business.LineItem;
+import music.business.User;
 
-import music.business.*;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class InvoiceDB {
 
@@ -68,7 +71,7 @@ public class InvoiceDB {
             pool.freeConnection(connection);
         }
     }
-    
+
     public static ArrayList<Invoice> selectUnprocessedInvoices() {
         ConnectionPool pool = ConnectionPool.getInstance();
         Connection connection = pool.getConnection();

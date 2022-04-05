@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/musicStore">
     <!-- the music database that contains the Music Store data -->
-    <Resource name="jdbc/musicDB" type="javax.sql.DataSource" auth="Container"
-              driverClassName="com.mysql.cj.jdbc.Driver"
+    <Resource name="jdbc/musicDB" auth="Container"
+              driverClassName="com.mysql.cj.jdbc.Driver" type="javax.sql.DataSource"
               url="jdbc:mysql://localhost:3306/music?autoReconnect=true"
               username="root" password="password"
-              logAbandoned="true"
-              removeAbandoned="true" removeAbandonedTimeout="60"
-              maxActive="100" maxIdle="30" maxWait="10000"/>
+              logAbandoned="true" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true" removeAbandonedTimeout="60"
+              maxTotal="100" maxIdle="30" maxWaitMillis="10000"/>
 
     <!-- the murach database that contains admin usernames and passwords -->
-    <Resource name="jdbc/murachDB" type="javax.sql.DataSource" auth="Container"
-              driverClassName="com.mysql.cj.jdbc.Driver"
+    <Resource name="jdbc/murachDB" auth="Container"
+              driverClassName="com.mysql.cj.jdbc.Driver" type="javax.sql.DataSource"
               url="jdbc:mysql://localhost:3306/murach?autoReconnect=true"
               username="root" password="password"
-              logAbandoned="true"
-              removeAbandoned="true" removeAbandonedTimeout="60"
-              maxActive="100" maxIdle="30" maxWait="10000"/>
+              logAbandoned="true" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true" removeAbandonedTimeout="60"
+              maxTotal="100" maxIdle="30" maxWaitMillis="10000"/>
 
     <Realm dataSourceName="jdbc/murachDB" localDataSource="true"
            className="org.apache.catalina.realm.DataSourceRealm"

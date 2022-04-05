@@ -1,7 +1,7 @@
 package music.business;
 
-import java.util.Date;
 import java.io.Serializable;
+import java.util.Date;
 
 public class Download implements Serializable {
 
@@ -24,27 +24,27 @@ public class Download implements Serializable {
         this.downloadId = downloadId;
     }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
-
     public User getUser() {
         return user;
     }
 
-    public void setDownloadDate(Date date) {
-        downloadDate = date;
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public Date getDownloadDate() {
         return downloadDate;
     }
 
-    public void setProductCode(String productCode) {
-        this.productCode = productCode;
+    public void setDownloadDate(Date date) {
+        downloadDate = date;
     }
 
     public String getProductCode() {
         return productCode;
+    }
+
+    public void setProductCode(String productCode) {
+        this.productCode = productCode;
     }
 }

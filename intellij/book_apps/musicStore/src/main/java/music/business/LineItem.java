@@ -1,7 +1,7 @@
 package music.business;
 
-import java.text.NumberFormat;
 import java.io.Serializable;
+import java.text.NumberFormat;
 
 public class LineItem implements Serializable {
 
@@ -20,20 +20,20 @@ public class LineItem implements Serializable {
         this.lineItemId = lineItemId;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
-    }
-
     public Product getProduct() {
         return product;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setProduct(Product product) {
+        this.product = product;
     }
 
     public int getQuantity() {
         return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     public double getTotal() {

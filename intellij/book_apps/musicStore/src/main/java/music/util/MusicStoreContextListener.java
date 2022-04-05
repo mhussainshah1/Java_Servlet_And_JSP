@@ -1,13 +1,18 @@
 package music.util;
 
-import jakarta.servlet.*;
-import java.util.*;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class MusicStoreContextListener implements ServletContextListener {
 
     @Override
     public void contextInitialized(ServletContextEvent event) {
-        
+
         ServletContext sc = event.getServletContext();
 
         // get the absolute paths for swithing regular and secure connections
@@ -16,7 +21,7 @@ public class MusicStoreContextListener implements ServletContextListener {
         String absolutePathSecure = "https://localhost:8443" + contextPath;
         sc.setAttribute("absolutePath", absolutePath);
         sc.setAttribute("absolutePathSecure", absolutePathSecure);
-        
+
         // initialize the customer service email address that's used throughout the web site
         String custServEmail = sc.getInitParameter("custServEmail");
         sc.setAttribute("custServEmail", custServEmail);

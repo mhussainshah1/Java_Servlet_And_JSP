@@ -1,15 +1,16 @@
 package music.util;
 
-import java.util.Properties;
 import jakarta.mail.*;
-import jakarta.mail.internet.*;
+import jakarta.mail.internet.InternetAddress;
+import jakarta.mail.internet.MimeMessage;
+
+import java.util.Properties;
 
 public class MailUtil {
 
-    public static void sendMail(String to, String from,
-            String subject, String body, boolean bodyIsHTML)
+    public static void sendMail(String to, String from, String subject, String body, boolean bodyIsHTML)
             throws MessagingException {
-        
+
         // 1 - get a mail session
         Properties props = new Properties();
         //props.put("mail.transport.protocol", "smtp");

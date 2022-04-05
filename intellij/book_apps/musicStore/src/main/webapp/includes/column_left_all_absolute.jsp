@@ -1,14 +1,14 @@
 <aside id="sidebarA">
     <nav>
-      <ul>
-        <li><a href="${absolutePath}">
+        <ul>
+            <li><a href="${absolutePath}">
                 Home</a></li>
-        <li><a href="${absolutePath}/catalog">
+            <li><a href="${absolutePath}/catalog">
                 Browse Catalog</a></li>
-        <li><a href="${absolutePath}/email">
+            <li><a href="${absolutePath}/email">
                 Join Email List</a></li>
-        <li><a href="${absolutePath}/customer_service">
+            <li><a href="${absolutePath}/customer_service">
                 Customer Service</a></li>
-      </ul>
+        </ul>
     </nav>
 </aside>

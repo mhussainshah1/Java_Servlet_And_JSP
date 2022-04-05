@@ -9,6 +9,7 @@ import murach.business.User;
 import murach.data.UserDB;
 import murach.util.MailUtilGmail;
 import murach.util.MailUtilLocal;
+import murach.util.MailUtilYahoo;
 
 import java.io.IOException;
 
@@ -40,7 +41,9 @@ public class EmailListServlet extends HttpServlet {
 
             // send email to user
             String to = email;
-            String from = "email_list@murach.com";
+            String from = "email_list@murach.com";//for MailUtilGmail
+//            String from = "mhussainshah@yahoo.com"; //for MailUtilYahoo
+
             String subject = "Welcome to our email list";
             String body = "Dear " + firstName + ",\n\n"
                     + "Thanks for joining our email list. We'll make sure to send "
@@ -52,6 +55,8 @@ public class EmailListServlet extends HttpServlet {
 
             try {
                 MailUtilGmail.sendMail(to, from, subject, body, isBodyHTML);
+//                MailUtilLocal.sendMail(to, from, subject, body, isBodyHTML);
+//                MailUtilYahoo.sendMail(to, from, subject, body, isBodyHTML);
             } catch (MessagingException e) {
                 String errorMessage
                         = "ERROR: Unable to send email. "

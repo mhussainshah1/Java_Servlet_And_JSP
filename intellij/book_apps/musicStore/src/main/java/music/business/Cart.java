@@ -1,7 +1,8 @@
 package music.business;
 
-import java.util.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Cart implements Serializable {
 
@@ -11,12 +12,12 @@ public class Cart implements Serializable {
         items = new ArrayList<>();
     }
 
-    public void setItems(List<LineItem> lineItems) {
-        items = lineItems;
-    }
-
     public List<LineItem> getItems() {
         return items;
+    }
+
+    public void setItems(List<LineItem> lineItems) {
+        items = lineItems;
     }
 
     public int getCount() {

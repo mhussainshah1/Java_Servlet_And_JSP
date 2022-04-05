@@ -1,11 +1,13 @@
 package music.business;
 
-import java.util.*;
-import java.text.*;
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.NumberFormat;
+import java.util.Date;
+import java.util.List;
 
 public class Invoice implements Serializable {
-    
+
     private User user;
     private List<LineItem> lineItems;
     private Date invoiceDate;
@@ -15,28 +17,28 @@ public class Invoice implements Serializable {
     public Invoice() {
     }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
-
     public User getUser() {
         return user;
     }
 
-    public void setLineItems(List<LineItem> lineItems) {
-        this.lineItems = lineItems;
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public List<LineItem> getLineItems() {
         return lineItems;
     }
 
-    public void setInvoiceDate(Date invoiceDate) {
-        this.invoiceDate = invoiceDate;
+    public void setLineItems(List<LineItem> lineItems) {
+        this.lineItems = lineItems;
     }
 
     public Date getInvoiceDate() {
         return invoiceDate;
+    }
+
+    public void setInvoiceDate(Date invoiceDate) {
+        this.invoiceDate = invoiceDate;
     }
 
     public String getInvoiceDateDefaultFormat() {
@@ -45,12 +47,12 @@ public class Invoice implements Serializable {
         return invoiceDateFormatted;
     }
 
-    public void setInvoiceNumber(Long invoiceNumber) {
-        this.invoiceNumber = invoiceNumber;
-    }
-
     public Long getInvoiceNumber() {
         return invoiceNumber;
+    }
+
+    public void setInvoiceNumber(Long invoiceNumber) {
+        this.invoiceNumber = invoiceNumber;
     }
 
     public boolean isIsProcessed() {

@@ -1,14 +1,14 @@
-<jsp:include page="/includes/header.jsp" />
-<jsp:include page="/includes/column_left_all.jsp" />
+<jsp:include page="/includes/header.jsp"/>
+<jsp:include page="/includes/column_left_all.jsp"/>
 
 <!-- start the middle column -->
 
 <section>
 
-  <jsp:include page="/includes/product_table.jsp" />
+    <jsp:include page="/includes/product_table.jsp"/>
 
     <p class="clear_both">To listen to a track, click on the song's link.</p>
-        
+
     <p>1. Pete and Jimmy</p>
     <p>2. <a href="/musicStore/sound/pf01/whiskey.mp3">Whiskey Before Breakfast</a></p>
     <p>3. Fishing Rod</p>
@@ -33,5 +33,5 @@
 
 <!-- end the middle column -->
 
-<jsp:include page="/includes/column_right_buttons.jsp" />
-<jsp:include page="/includes/footer.jsp" />
+<jsp:include page="/includes/column_right_buttons.jsp"/>
+<jsp:include page="/includes/footer.jsp"/>

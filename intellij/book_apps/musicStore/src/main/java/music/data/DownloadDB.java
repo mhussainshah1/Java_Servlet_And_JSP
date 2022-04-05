@@ -1,8 +1,11 @@
 package music.data;
 
-import java.sql.*;
+import music.business.Download;
 
-import music.business.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class DownloadDB {
 

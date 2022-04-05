@@ -1,6 +1,6 @@
 package music.util;
 
-import jakarta.servlet.http.*;
+import jakarta.servlet.http.Cookie;
 
 public class CookieUtil {
 
@@ -9,7 +9,7 @@ public class CookieUtil {
 
         String cookieValue = "";
         if (cookies != null) {
-            for (Cookie cookie: cookies) {
+            for (Cookie cookie : cookies) {
                 if (cookieName.equals(cookie.getName())) {
                     cookieValue = cookie.getValue();
                 }

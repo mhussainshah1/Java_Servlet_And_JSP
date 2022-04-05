@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://jakarta.ee/xml/ns/jakartaee"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
 
     <display-name>Murach's Servlets and JSP: Music Store site</display-name>
-    <description>The Music Store web site that's described in 
-        Murach's Java Servlets and JSP (3rd Edition)</description>
+    <description>The Music Store web site that's described in
+        Murach's Java Servlets and JSP (3rd Edition)
+    </description>
 
     <!-- define a context initialization parameter -->
     <context-param>
@@ -93,7 +94,7 @@
             <role-name>service</role-name>
             <role-name>programmer</role-name>
         </auth-constraint>
-        
+
         <!-- Forces a secure connection - remove comments to enable -->
         <!--
         <user-data-constraint>
@@ -110,9 +111,9 @@
             <form-error-page>/login_error.jsp</form-error-page>
         </form-login-config>
     </login-config>
-    
+
     <!-- Use cookies (not URL encoding) for session tracking -->
     <session-config>
         <tracking-mode>COOKIE</tracking-mode>
-    </session-config>    
+    </session-config>
 </web-app>

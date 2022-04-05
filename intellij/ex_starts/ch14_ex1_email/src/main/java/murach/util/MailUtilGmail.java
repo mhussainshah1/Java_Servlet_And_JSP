@@ -1,15 +1,17 @@
 package murach.util;
 
-import java.util.Properties;
 import jakarta.mail.*;
-import jakarta.mail.internet.*;
+import jakarta.mail.internet.InternetAddress;
+import jakarta.mail.internet.MimeMessage;
+
+import java.util.Properties;
 
 public class MailUtilGmail {
 
     public static void sendMail(String to, String from,
-            String subject, String body, boolean bodyIsHTML)
+                                String subject, String body, boolean bodyIsHTML)
             throws MessagingException {
-        
+
         // 1 - get a mail session
         Properties props = new Properties();
         props.put("mail.transport.protocol", "smtps");
@@ -37,7 +39,8 @@ public class MailUtilGmail {
 
         // 4 - send the message
         Transport transport = session.getTransport();
-        transport.connect("johnsmith@gmail.com", "sesame");
+//        transport.connect("johnsmith@gmail.com", "sesame");
+        transport.connect("mhussainshah79@gmail.com", "yywlcgkiishbdymu");//useremail and app password
         transport.sendMessage(message, message.getAllRecipients());
         transport.close();
     }
