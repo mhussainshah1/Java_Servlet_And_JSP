@@ -14,8 +14,7 @@ import java.io.PrintWriter;
 @WebServlet("/downloadFile")
 public class DownloadFileServlet extends HttpServlet {
     @Override
-    public void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws IOException, ServletException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         ServletContext sc = getServletContext();
         String path = sc.getRealPath("/");
         String name = request.getParameter("name");

@@ -17,7 +17,8 @@ public class RequestHeadersXMLServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         StringBuilder returnString = new StringBuilder();
         Enumeration<String> headerNames = request.getHeaderNames();
-        returnString.append("<?xml version='1.0' encoding='UTF-8'?>"
+        returnString.append(
+                "<?xml version='1.0' encoding='UTF-8'?>"
                 + "<!-- Request Header Information-->"
                 + "<headers>");
         while (headerNames.hasMoreElements()) {

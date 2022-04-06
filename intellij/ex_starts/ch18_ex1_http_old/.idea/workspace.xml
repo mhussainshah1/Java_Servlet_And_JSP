@@ -10,49 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="531749d0-3f60-4a52-baae-e6fa226a29d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a/storage_v2/_src_/schema/murach.fESmwA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch18_ex1_http_old-1.0-SNAPSHOT/BigDecimal.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch18_ex1_http_old-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch18_ex1_http_old-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch18_ex1_http_old-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch18_ex1_http_old-1.0-SNAPSHOT/filter.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch18_ex1_http_old-1.0-SNAPSHOT/headers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch18_ex1_http_old-1.0-SNAPSHOT/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ch18_ex1_http_old-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch16admin/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch16admin/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch16admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch16admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch16admin/ch16admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch16admin/ch16admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch16admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch16admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch16admin/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch16admin/src/main/webapp/META-INF/context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../book_apps/ch18http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch18http/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../book_apps/ch18http/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch18http/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../book_apps/ch18http/target/ch18http-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch18http/target/ch18http-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18_ex1_http/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18_ex1_http/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18_ex1_http/target/ch18_ex1_http-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18_ex1_http/target/ch18_ex1_http-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/murach/data/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/data/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/murach/data/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/data/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/murach/http/DownloadFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/DownloadFileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/murach/http/RequestHeadersHTMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersHTMLServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/murach/http/RequestHeadersSpreadsheetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/murach/http/RequestHeadersXMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersXMLServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/murach/http/UserTableGZIPServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/UserTableGZIPServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/murach/http/UserTableSpreadsheetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/UserTableSpreadsheetServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/BigDecimal.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/BigDecimal.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/filter.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/filter.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/headers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/headers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/java/murach/http/DownloadFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/java/murach/http/DownloadFileServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/java/murach/http/RequestHeadersHTMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/java/murach/http/RequestHeadersHTMLServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/java/murach/http/RequestHeadersXMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../book_apps/ch18http/src/main/java/murach/http/RequestHeadersXMLServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20_ex1_download/ch20_ex1_download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20_ex1_download/ch20_ex1_download.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21_ex1_email/ch21_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21_ex1_email/ch21_ex1_email.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch12_ex2_userAdmin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -207,6 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649040397174</updated>
       <workItem from="1649040398361" duration="2318000" />
+      <workItem from="1649274566099" duration="605000" />
     </task>
     <servers />
   </component>

@@ -10,127 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="870f9b90-eb59-412e-b00b-d2c0fda984eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch16admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch16admin_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ch16admin_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/447f2ee5-d1f9-4ca2-81a5-0fea3521d0db.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/447f2ee5-d1f9-4ca2-81a5-0fea3521d0db/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/447f2ee5-d1f9-4ca2-81a5-0fea3521d0db/storage_v2/_src_/schema/murach.fESmwA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/447f2ee5-d1f9-4ca2-81a5-0fea3521d0db/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/447f2ee5-d1f9-4ca2-81a5-0fea3521d0db/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/447f2ee5-d1f9-4ca2-81a5-0fea3521d0db/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch12_ex2_userAdmin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch12_ex2_userAdmin_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch16_ex1_admin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch16_ex1_admin_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/musicStoreJPA_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/musicStoreJPA_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/murach.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/murach.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch16admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch16admin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/login_error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/reports.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/reports.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/admin/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/admin/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/admin/login_error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/admin/orders.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/admin/reports.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch16admin-1.0-SNAPSHOT/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch17password/ch17password.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch17password/ch17password.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch17password/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch17password/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18http/ch18http.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/ch18http.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18http/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch19cart/ch19cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch19cart/ch19cart.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch19cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch19cart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch20download/ch20download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/ch20download.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch20download/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch20security/ch20security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20security/ch20security.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch20security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/ch21email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/ch21email.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/business/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/java/murach/data/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/data/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/java/murach/data/UserDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/data/UserDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/java/murach/email/EmailList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/email/EmailList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/webapp/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21email/src/webapp/thanks.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/thanks.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21message/ch21message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/ch21message.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21message/src/java/murach/test/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/java/murach/test/MessageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21message/src/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21message/src/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21message/src/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch21message/src/webapp/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/webapp/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/.idea/artifacts/musicStore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStore/.idea/artifacts/musicStore_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_apache_tomcat_tomcat_dbcp_10_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_apache_tomcat_tomcat_dbcp_10_0_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_10_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_10_0_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/musicStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStore/musicStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStore/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStore/target/musicStore-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStore/target/musicStore-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/musicStoreJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/musicStoreJPA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicStoreJPA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicStoreJPA/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch04_ex1_survey_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch04_ex1_survey_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch05_ex1_email_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch05_ex1_email_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch05_ex2_email_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch05_ex2_email_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch06_ex1_email_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch06_ex1_email_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch06_ex2_survey_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch06_ex2_survey_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/ch16_ex1_admin_sol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/ch16_ex1_admin_sol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/target/ch16_ex1_admin_sol-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/target/ch16_ex1_admin_sol-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/target/ch16_ex1_admin_sol-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch16_ex1_admin_sol/target/ch16_ex1_admin_sol-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/ch12_ex2_userAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/ch12_ex2_userAdmin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/ch16_ex1_admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/ch16_ex1_admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/target/ch16_ex1_admin-1.0-SNAPSHOT/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/target/ch16_ex1_admin-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/target/ch16_ex1_admin-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch16_ex1_admin/target/ch16_ex1_admin-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch13email/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch13email/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/ant-deploy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/ant-deploy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/build-impl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/genfiles.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/private/retriever/catalog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/src/conf/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/src/conf/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/web/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch16admin/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch18http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/DownloadFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/DownloadFileServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersHTMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersHTMLServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersXMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersXMLServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch20_ex1_download/ch20_ex1_download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch20_ex1_download/ch20_ex1_download.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch21_ex1_email/ch21_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch21_ex1_email/ch21_ex1_email.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -283,6 +179,9 @@
       <workItem from="1646125431184" duration="31000" />
       <workItem from="1646125841783" duration="3804000" />
       <workItem from="1646133162269" duration="4641000" />
+      <workItem from="1649187625513" duration="19000" />
+      <workItem from="1649258950419" duration="2116000" />
+      <workItem from="1649278405324" duration="19000" />
     </task>
     <servers />
   </component>
