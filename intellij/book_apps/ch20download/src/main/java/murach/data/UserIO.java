@@ -1,17 +1,17 @@
 package murach.data;
 
-import java.io.*;
-import java.util.*;
-
 import murach.business.User;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 public class UserIO {
 
     public static boolean add(User user, String filepath) {
         try {
             File file = new File(filepath);
-            PrintWriter out = new PrintWriter(
-                    new FileWriter(file, true));
+            PrintWriter out = new PrintWriter(new FileWriter(file, true));
             out.println(user.getEmail() + "|"
                     + user.getFirstName() + "|"
                     + user.getLastName());
@@ -27,8 +27,7 @@ public class UserIO {
     public static User getUser(String email, String filepath) {
         try {
             File file = new File(filepath);
-            BufferedReader in = new BufferedReader(
-                    new FileReader(file));
+            BufferedReader in = new BufferedReader(new FileReader(file));
             User user = new User();
             String line = in.readLine();
             while (line != null) {
@@ -57,8 +56,7 @@ public class UserIO {
     public static ArrayList<User> getUsers(String filepath) {
         try {
             ArrayList<User> users = new ArrayList<User>();
-            BufferedReader in = new BufferedReader(
-                    new FileReader(filepath));
+            BufferedReader in = new BufferedReader(new FileReader(filepath));
             String line = in.readLine();
             while (line != null) {
                 StringTokenizer t = new StringTokenizer(line, "|");

@@ -1,7 +1,8 @@
 package murach.filters;
 
-import java.io.*;
 import jakarta.servlet.*;
+
+import java.io.IOException;
 
 public class TestInitParamsFilter implements Filter {
 
@@ -13,18 +14,11 @@ public class TestInitParamsFilter implements Filter {
     }
 
     @Override
-    public void doFilter(
-            ServletRequest request,
-            ServletResponse response,
-            FilterChain chain) throws IOException, ServletException {
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         ServletContext sc = filterConfig.getServletContext();
-
         String filterName = filterConfig.getFilterName();
-
         String logFilename = filterConfig.getInitParameter("logFilename");
-
         sc.log(filterName + " | logFilename: " + logFilename);
-
         chain.doFilter(request, response);
     }
 

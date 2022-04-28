@@ -1,10 +1,11 @@
 package murach.filters;
 
-import java.io.*;
 import jakarta.servlet.*;
-import jakarta.servlet.http.*;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import murach.util.CookieUtil;
 
-import murach.util.*;
+import java.io.IOException;
 
 public class LogRequestFilter implements Filter {
 
@@ -16,11 +17,8 @@ public class LogRequestFilter implements Filter {
     }
 
     @Override
-    public void doFilter(
-            ServletRequest request,
-            ServletResponse response,
-            FilterChain chain) throws IOException, ServletException {
-        
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         ServletContext sc = filterConfig.getServletContext();
 
@@ -28,8 +26,7 @@ public class LogRequestFilter implements Filter {
         logString += "Servlet path: " + httpRequest.getServletPath() + " | ";
 
         Cookie[] cookies = httpRequest.getCookies();
-        String emailAddress = CookieUtil.getCookieValue(
-                cookies, "emailCookie");
+        String emailAddress = CookieUtil.getCookieValue(cookies, "emailCookie");
         logString += "Email cookie: ";
         if (emailAddress.length() != 0) {
             logString += emailAddress;

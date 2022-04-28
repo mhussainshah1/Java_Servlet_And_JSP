@@ -1,9 +1,13 @@
 package murach.filters;
 
-import java.io.*;
-import java.util.*;
 import jakarta.servlet.*;
-import jakarta.servlet.http.*;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponseWrapper;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class LogResponseCookiesFilter implements Filter {
 
@@ -15,15 +19,10 @@ public class LogResponseCookiesFilter implements Filter {
     }
 
     @Override
-    public void doFilter(
-            ServletRequest request,
-            ServletResponse response,
-            FilterChain chain) throws IOException, ServletException {
-        
-        HttpServletResponse httpResponse = (HttpServletResponse) response;
-        ResponseCookiesWrapper wrappedResponse
-                = new ResponseCookiesWrapper(httpResponse);
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
+        ResponseCookiesWrapper wrappedResponse = new ResponseCookiesWrapper(httpResponse);
         chain.doFilter(request, wrappedResponse);
 
         HttpServletRequest httpRequest = (HttpServletRequest) request;
@@ -36,8 +35,7 @@ public class LogResponseCookiesFilter implements Filter {
             cookiesString += c.getName() + "=" + c.getValue() + " ";
         }
 
-        sc.log(filterName + " | " + servletPath + " | cookies: "
-                + cookiesString);
+        sc.log(filterName + " | " + servletPath + " | cookies: " + cookiesString);
     }
 
     @Override
@@ -66,8 +64,7 @@ public class LogResponseCookiesFilter implements Filter {
             cookies.add(cookie);
 
             // store the cookie in the original response object
-            HttpServletResponse httpResponse
-                    = (HttpServletResponse) this.getResponse();
+            HttpServletResponse httpResponse = (HttpServletResponse) this.getResponse();
             httpResponse.addCookie(cookie);
         }
     }

@@ -1,8 +1,9 @@
 package murach.filters;
 
-import java.io.*;
 import jakarta.servlet.*;
-import jakarta.servlet.http.*;
+import jakarta.servlet.http.HttpServletRequest;
+
+import java.io.IOException;
 
 public class TestFilter3 implements Filter {
 
@@ -14,10 +15,7 @@ public class TestFilter3 implements Filter {
     }
 
     @Override
-    public void doFilter(
-            ServletRequest request,
-            ServletResponse response,
-            FilterChain chain) throws IOException, ServletException {
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         ServletContext sc = filterConfig.getServletContext();
 
@@ -25,9 +23,7 @@ public class TestFilter3 implements Filter {
         String servletPath = "Servlet path: " + httpRequest.getServletPath();
 
         sc.log(filterName + " | " + servletPath + " | before request");
-
         chain.doFilter(httpRequest, response);
-
         sc.log(filterName + " | " + servletPath + " | after request");
     }
 
