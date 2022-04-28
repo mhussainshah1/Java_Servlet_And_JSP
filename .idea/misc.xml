@@ -94,7 +94,6 @@
         <option value="$PROJECT_DIR$/intellij/book_apps/ch12email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch14email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch15email/pom.xml" />
-        <option value="$PROJECT_DIR$/intellij/book_apps/ch16admin/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch21email/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/musicStore/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/book_apps/ch21message/pom.xml" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex1_email_sol/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/pom.xml" />
         <option value="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/pom.xml" />
+        <option value="$PROJECT_DIR$/intellij/book_apps/ch16admin/pom.xml" />
       </list>
     </option>
   </component>

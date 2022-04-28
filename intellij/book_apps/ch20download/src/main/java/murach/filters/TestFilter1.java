@@ -1,10 +1,10 @@
 package murach.filters;
 
 import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
-public class TestFilter2 implements Filter {
+public class TestFilter1 implements Filter {
 
     private FilterConfig filterConfig = null;
 
@@ -18,6 +18,7 @@ public class TestFilter2 implements Filter {
             ServletRequest request,
             ServletResponse response,
             FilterChain chain) throws IOException, ServletException {
+        
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         ServletContext sc = filterConfig.getServletContext();
 

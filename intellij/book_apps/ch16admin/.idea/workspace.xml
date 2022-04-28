@@ -10,23 +10,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="870f9b90-eb59-412e-b00b-d2c0fda984eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch20download/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch20download/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch20download/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch20download/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch20download/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch20download/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch16admin.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch16admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch16admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/DownloadFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/DownloadFileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersHTMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersHTMLServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersXMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/src/main/java/murach/http/RequestHeadersXMLServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch20_ex1_download/ch20_ex1_download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch20_ex1_download/ch20_ex1_download.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch21_ex1_email/ch21_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch21_ex1_email/ch21_ex1_email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/business/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/data/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/data/UserIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/download/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/filters/LogRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/filters/LogRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/filters/LogResponseCookiesFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/filters/LogResponseCookiesFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/filters/LogResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/filters/LogResponseFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/filters/TestFilter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/filters/TestFilter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/filters/TestFilter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/filters/TestFilter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/filters/TestFilter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/filters/TestFilter3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/filters/TestInitParamsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/filters/TestInitParamsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/util/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21message/ch21message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/ch21message.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch21_ex1_email_sol/ch21_ex1_email_sol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch21_ex1_email_sol/ch21_ex1_email_sol.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/ch21_ex1_email_sol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/ch21_ex1_email_sol/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/testApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/testApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_solutions/testApp/testApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_solutions/testApp/testApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/ch06_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/ch06_ex1_email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch06_ex1_email/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch15_ex1_email/ch15_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch15_ex1_email/ch15_ex1_email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch15_ex1_email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch15_ex1_email/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch19_ex1_cart/ch19_ex1_cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch19_ex1_cart/ch19_ex1_cart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch19_ex1_cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch19_ex1_cart/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch20download" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -182,6 +197,8 @@
       <workItem from="1649187625513" duration="19000" />
       <workItem from="1649258950419" duration="2116000" />
       <workItem from="1649278405324" duration="19000" />
+      <workItem from="1651091698304" duration="596000" />
+      <workItem from="1651135993125" duration="11000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,10 @@
 package murach.filters;
 
 import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
-public class TestFilter3 implements Filter {
+public class LogResponseFilter implements Filter {
 
     private FilterConfig filterConfig = null;
 
@@ -15,20 +15,21 @@ public class TestFilter3 implements Filter {
 
     @Override
     public void doFilter(
-            ServletRequest request,
+            ServletRequest request, 
             ServletResponse response,
             FilterChain chain) throws IOException, ServletException {
+        
+        chain.doFilter(request, response);
+
         HttpServletRequest httpRequest = (HttpServletRequest) request;
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
         ServletContext sc = filterConfig.getServletContext();
 
-        String filterName = filterConfig.getFilterName();
-        String servletPath = "Servlet path: " + httpRequest.getServletPath();
+        String logString = filterConfig.getFilterName() + " | ";
+        logString += "Servlet path: " + httpRequest.getServletPath() + " | ";
+        logString += "Content type: " + httpResponse.getContentType();
 
-        sc.log(filterName + " | " + servletPath + " | before request");
-
-        chain.doFilter(httpRequest, response);
-
-        sc.log(filterName + " | " + servletPath + " | after request");
+        sc.log(logString);
     }
 
     @Override
