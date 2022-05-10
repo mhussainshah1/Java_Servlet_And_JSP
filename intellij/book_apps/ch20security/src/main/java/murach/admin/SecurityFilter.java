@@ -40,7 +40,7 @@ public class SecurityFilter implements Filter {
                     .log("Attempted admin access from unauthorized IP: " +
                         remoteAddress);
             httpResponse.sendError(404);
-            // chain.doFilter(request, response);   // this causes an error...
+//            chain.doFilter(request, response);   // this causes an error...
         }
     }
 

@@ -3,6 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
+
     <filter>
         <filter-name>TestFilter1</filter-name>
         <filter-class>murach.filters.TestFilter1</filter-class>
@@ -73,6 +74,7 @@
         <dispatcher>FORWARD</dispatcher>
     </filter-mapping>
     -->
+
     <servlet>
         <servlet-name>DownloadServlet</servlet-name>
         <servlet-class>murach.download.DownloadServlet</servlet-class>
@@ -81,9 +83,11 @@
         <servlet-name>DownloadServlet</servlet-name>
         <url-pattern>/download</url-pattern>
     </servlet-mapping>
+
     <session-config>
         <session-timeout>30</session-timeout>
     </session-config>
+
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>

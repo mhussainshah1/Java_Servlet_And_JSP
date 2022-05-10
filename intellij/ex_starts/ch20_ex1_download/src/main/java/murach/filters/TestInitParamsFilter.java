@@ -1,7 +1,7 @@
 package murach.filters;
 
 import java.io.*;
-import javax.servlet.*;
+import jakarta.servlet.*;
 
 public class TestInitParamsFilter implements Filter {
 

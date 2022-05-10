@@ -9,7 +9,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="870f9b90-eb59-412e-b00b-d2c0fda984eb" name="Changes" comment="" />
+    <list default="true" id="870f9b90-eb59-412e-b00b-d2c0fda984eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ch18http/.idea/ch18http.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/447f2ee5-d1f9-4ca2-81a5-0fea3521d0db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/447f2ee5-d1f9-4ca2-81a5-0fea3521d0db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch18http/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch18http/.idea/dataSources/c2c754b3-ba2b-4021-a712-13bad65581bb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/.idea/dataSources/c2c754b3-ba2b-4021-a712-13bad65581bb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch18http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch18http/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/main/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/java/murach/util/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/target/ch20download-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/target/ch20download-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20security/src/main/java/murach/admin/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20security/src/main/java/murach/admin/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20security/src/main/webapp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20security/src/main/webapp/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20security/target/ch20security-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20security/target/ch20security-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/java/murach/business/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/business/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/java/murach/data/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/data/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/java/murach/data/UserDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/data/UserDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/java/murach/email/EmailList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/email/EmailList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/webapp/thanks.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/thanks.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch13email/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch13email/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/ant-deploy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/ant-deploy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/download/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/download/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/LogRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/LogRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/LogResponseCookiesFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/LogResponseCookiesFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/LogResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/LogResponseFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/TestFilter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/TestFilter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/TestFilter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/TestFilter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/TestFilter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/TestFilter3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/TestInitParamsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/filters/TestInitParamsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/ch20download/src/java/murach/util/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../netbeans/book_apps/musicStore/nbproject/project.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,23 +88,12 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch20security" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.45747125" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/murach/intellij/ex_starts/ch19_ex1_cart"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 10.0.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.17" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -167,6 +200,7 @@
       <workItem from="1651091698304" duration="596000" />
       <workItem from="1651135993125" duration="11000" />
       <workItem from="1651136663359" duration="266000" />
+      <workItem from="1652200447569" duration="108000" />
     </task>
     <servers />
   </component>

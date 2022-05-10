@@ -1,8 +1,8 @@
 package murach.filters;
 
 import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
 import murach.util.*;
 
@@ -28,14 +28,24 @@ public class LogRequestFilter implements Filter {
         logString += "Servlet path: " + httpRequest.getServletPath() + " | ";
 
         Cookie[] cookies = httpRequest.getCookies();
-        String emailAddress = CookieUtil.getCookieValue(
+
+        String cookiesString = "";
+        if (cookies != null) {
+            for (Cookie c : cookies) {
+                cookiesString = c.getName() + "=" + c.getValue() + " ";
+            }
+        }
+
+        logString += cookiesString;
+
+ /*       String emailAddress = CookieUtil.getCookieValue(
                 cookies, "emailCookie");
         logString += "Email cookie: ";
         if (emailAddress.length() != 0) {
             logString += emailAddress;
         } else {
             logString += "Not found";
-        }
+        }*/
 
         sc.log(logString);
 

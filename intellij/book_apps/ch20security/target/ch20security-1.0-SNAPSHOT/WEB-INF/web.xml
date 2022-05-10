@@ -9,7 +9,7 @@
         <init-param>
             <param-name>allowedHosts</param-name>
             <param-value>
-                0:0:0:0:0:0:0:1
+               <!-- 0:0:0:0:0:0:0:1-->
                 127.0.0.1
             </param-value>
         </init-param>

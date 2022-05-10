@@ -10,23 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee57b5cc-5cc9-47b2-9b98-b33e392aeb3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/musicStore_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch16admin/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16admin/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch16admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch16admin/ch16admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16admin/ch16admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch16admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch16admin/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch16admin/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/http/DownloadFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/DownloadFileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersHTMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersHTMLServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersSpreadsheetServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersXMLServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/murach/http/RequestHeadersXMLServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch12_ex2_userAdmin/target/ch12_ex2_userAdmin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/dataSources/af23b003-ee65-4b31-960b-b7ea023d597a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch20_ex1_download/ch20_ex1_download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch20_ex1_download/ch20_ex1_download.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex_starts/ch21_ex1_email/ch21_ex1_email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex_starts/ch21_ex1_email/ch21_ex1_email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2c754b3-ba2b-4021-a712-13bad65581bb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c2c754b3-ba2b-4021-a712-13bad65581bb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch20download/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch20download/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,22 +55,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ex_starts/ch18_ex1_http_old" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/murach/intellij/book_apps/ch21email"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\murach\intellij\book_apps\ch18http\src\main\webapp" />
@@ -201,6 +178,7 @@
       <workItem from="1648588500359" duration="1639000" />
       <workItem from="1649041736458" duration="1043000" />
       <workItem from="1649273367996" duration="2993000" />
+      <workItem from="1652022574754" duration="29000" />
     </task>
     <servers />
   </component>
