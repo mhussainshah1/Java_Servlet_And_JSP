@@ -1,11 +1,10 @@
 package murach.email;
 
+import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Named;
 import murach.business.User;
 import murach.data.UserDB;
-
-import jakarta.annotation.PostConstruct;
 //import jakarta.faces.bean.ManagedBean;
 //import jakarta.faces.bean.RequestScoped;
 //@ManagedBean

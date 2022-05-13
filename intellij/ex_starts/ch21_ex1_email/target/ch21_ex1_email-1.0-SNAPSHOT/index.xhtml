@@ -12,32 +12,31 @@
 </h:head>
 <h:body>
     <h1>Join our email list</h1>
-    <p>To join our email list, enter your name and
-        email address below.</p>
+    <p>To join our email list, enter your name and email address below.</p>
     <c:if test="${emailList.message != null}">
         <p class="error">#{emailList.message}</p>
     </c:if>
     <h:form>
         <label class="pad_top">Email:</label>
-        <h:inputText id="email" required="true"
+        <h:inputText id="email"
+                     required="true"
                      value="#{emailList.user.email}"
                      requiredMessage="An email address is required"/>
-        <h:message showSummary="true" showDetail="false"
-                   for="email" class="error"/><br/>
+        <h:message showSummary="true" showDetail="false" for="email" class="error"/><br/>
 
         <label class="pad_top">First Name:</label>
-        <h:inputText id="firstName" required="true"
+        <h:inputText id="firstName"
+                     required="true"
                      value="#{emailList.user.firstName}"
                      requiredMessage="A first name is required"/>
-        <h:message showSummary="true" showDetail="false"
-                   for="firstName" class="error"/><br/>
+        <h:message showSummary="true" showDetail="false" for="firstName" class="error"/><br/>
 
         <label class="pad_top">Last Name:</label>
-        <h:inputText id="lastName" required="true"
+        <h:inputText id="lastName"
+                     required="true"
                      value="#{emailList.user.lastName}"
                      requiredMessage="A last name is required"/>
-        <h:message showSummary="true" showDetail="false"
-                   for="lastName" class="error"/><br/>
+        <h:message showSummary="true" showDetail="false" for="lastName" class="error"/><br/>
 
         <label class="pad_top">Birth Year:</label>
         <h:inputText id="birthYear"
@@ -47,8 +46,7 @@
                      validatorMessage="A valid 4-digit birth year is required">
             <f:validateLongRange minimum="1900" maximum="2014"/>
         </h:inputText>
-        <h:message showSummary="true" showDetail="false"
-                   for="birthYear" class="error"/><br/>
+        <h:message showSummary="true" showDetail="false" for="birthYear" class="error"/><br/>
 
         <label>&nbsp;</label>
         <h:commandButton id="submit"
