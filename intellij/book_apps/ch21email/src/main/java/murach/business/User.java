@@ -16,6 +16,9 @@ public class User implements Serializable {
     private String firstName;
     private String lastName;
 
+    public User(){
+    }
+
     public Long getUserId() {
         return userId;
     }

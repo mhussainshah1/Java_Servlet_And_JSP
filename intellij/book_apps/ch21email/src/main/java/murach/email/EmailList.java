@@ -1,13 +1,15 @@
 package murach.email;
 
+import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
 import murach.business.User;
 import murach.data.UserDB;
 
 import jakarta.annotation.PostConstruct;
-import jakarta.faces.bean.ManagedBean;
-import jakarta.faces.bean.RequestScoped;
 
-@ManagedBean
+
+//@ManagedBean
+@Named
 @RequestScoped
 public class EmailList {
     private User user;

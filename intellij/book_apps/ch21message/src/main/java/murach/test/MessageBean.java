@@ -1,8 +1,10 @@
 package murach.test;
 
-import javax.faces.bean.ManagedBean;
+import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Named;
 
-@ManagedBean
+@Named
+@RequestScoped
 public class MessageBean {
     private String message = "<h1>Hello, world!</h1>";
     

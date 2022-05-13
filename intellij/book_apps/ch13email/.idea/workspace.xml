@@ -10,17 +10,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83598df5-eea1-4931-998e-b867dea464f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ch13email_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ch13email_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_glassfish_jakarta_faces_4_0_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_jboss_weld_servlet_weld_servlet_shaded_5_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_dbcp_10_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_10_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/WEB-INF/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21email/target/ch21email-1.0-SNAPSHOT/thanks.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/target/ch21message-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/target/ch21message-1.0-SNAPSHOT/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/target/ch21message-1.0-SNAPSHOT/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/target/ch21message-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/target/ch21message-1.0-SNAPSHOT/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch21message/target/ch21message-1.0-SNAPSHOT/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch13email_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch13email_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/ch21email_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/artifacts/ch21email_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ch13email_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ch13email_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee4561e1-6824-469f-9d0e-653e289d42d7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_dbcp_10_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_tomcat_tomcat_dbcp_10_0_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_10_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_10_0_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch13email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch13email.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch13email-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch13email-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch13email-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/ch21email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/ch21email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/java/murach/email/EmailList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/java/murach/email/EmailList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21email/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21email/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21message/src/main/java/murach/test/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/java/murach/test/MessageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21message/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21message/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch21message/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch21message/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +85,8 @@
         <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -44,6 +95,8 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -67,23 +120,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ch14email" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3264368" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Owner/IdeaProjects/Murach/CH13JPA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\murach\intellij\book_apps\ch13email\src\main\resources" />
@@ -106,7 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 10.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.12" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 10.0.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.17" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ch13email:war exploded">
@@ -212,6 +261,7 @@
       <workItem from="1633904334968" duration="4278000" />
       <workItem from="1645578737335" duration="384000" />
       <workItem from="1645579181426" duration="238000" />
+      <workItem from="1652367270615" duration="3556000" />
     </task>
     <servers />
   </component>
