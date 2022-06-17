@@ -15,7 +15,8 @@ public class DownloadDB {
         PreparedStatement ps = null;
         ResultSet rs = null;
 
-        String query = "INSERT INTO Download "
+        String query =
+                "INSERT INTO Download "
                 + "(UserID, DownloadDate, ProductCode) "
                 + "VALUES "
                 + "(?, NOW(), ?)";

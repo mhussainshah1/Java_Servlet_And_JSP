@@ -22,7 +22,6 @@
                 <td><b>Invoice Date</b></td>
             </tr>
 
-
             <c:forEach var="invoice" items="${unprocessedInvoices}">
                 <tr>
                     <td>

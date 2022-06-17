@@ -5,7 +5,6 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
 public class SQLUtil {
-
     public static String getHtmlRows(ResultSet results)
             throws SQLException {
         StringBuilder htmlRows = new StringBuilder();

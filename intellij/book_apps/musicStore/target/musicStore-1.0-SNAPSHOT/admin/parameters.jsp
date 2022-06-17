@@ -10,7 +10,6 @@
     <p>Please enter dates using this format: yyyy-mm-dd.</p>
 
     <form action="<c:url value='/adminController/displayReport'/>" method="post">
-
         <!-- Note the use of hidden fields to pass parameters -->
         <input type="hidden" name="reportName" value="${param.reportName}">
         <input type="hidden" name="reportTitle" value="${param.reportTitle}">
@@ -25,7 +24,6 @@
 
         <label>&nbsp;</label>
         <input type="submit" value="Continue">
-
     </form>
 
 </section>

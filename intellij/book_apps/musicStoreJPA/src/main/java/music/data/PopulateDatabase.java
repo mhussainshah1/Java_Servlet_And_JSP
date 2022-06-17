@@ -48,7 +48,7 @@ public class PopulateDatabase {
     }
     
     public static void main(String[] args) {
-        Map props = new HashMap();
+        Map<String, String> props = new HashMap<>();
         props.put(TRANSACTION_TYPE,
                 PersistenceUnitTransactionType.RESOURCE_LOCAL.name());
         props.put(JDBC_DRIVER, "com.mysql.cj.jdbc.Driver");

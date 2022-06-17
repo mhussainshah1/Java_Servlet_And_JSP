@@ -21,4 +21,9 @@
            userTable="UserPass" userRoleTable="UserRole"
            userNameCol="Username" roleNameCol="Rolename" userCredCol="Password"
            debug="99"/>
+
+    <Realm className="org.apache.catalina.realm.DataSourceRealm"
+           dataSourceName="jdbc/authority"
+           userTable="users" userNameCol="user_name" userCredCol="user_pass"
+           userRoleTable="user_roles" roleNameCol="role_name"/>
 </Context>
