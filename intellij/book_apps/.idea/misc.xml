@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ch02email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch04email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch05email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch06email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch07cart" />
+    <file type="web" url="file://$PROJECT_DIR$/ch07download" />
+    <file type="web" url="file://$PROJECT_DIR$/ch08email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch09cart" />
+    <file type="web" url="file://$PROJECT_DIR$/ch09email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch10cart" />
+    <file type="web" url="file://$PROJECT_DIR$/ch10email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch12email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch12sqlGateway" />
+    <file type="web" url="file://$PROJECT_DIR$/ch13email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch14email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch15email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch16admin" />
+    <file type="web" url="file://$PROJECT_DIR$/ch17password" />
+    <file type="web" url="file://$PROJECT_DIR$/ch18http" />
+    <file type="web" url="file://$PROJECT_DIR$/ch19cart" />
+    <file type="web" url="file://$PROJECT_DIR$/ch20download" />
+    <file type="web" url="file://$PROJECT_DIR$/ch20security" />
+    <file type="web" url="file://$PROJECT_DIR$/ch21email" />
+    <file type="web" url="file://$PROJECT_DIR$/ch21message" />
+    <file type="web" url="file://$PROJECT_DIR$/musicStore" />
+    <file type="web" url="file://$PROJECT_DIR$/musicStoreJPA" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ch07cart/pom.xml" />
+        <option value="$PROJECT_DIR$/ch09cart/pom.xml" />
+        <option value="$PROJECT_DIR$/ch10cart/pom.xml" />
+        <option value="$PROJECT_DIR$/ch18http/pom.xml" />
+        <option value="$PROJECT_DIR$/ch19cart/pom.xml" />
+        <option value="$PROJECT_DIR$/ch02email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch04email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch06email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch08email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch09email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch10email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch12email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch13email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch14email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch15email/pom.xml" />
+        <option value="$PROJECT_DIR$/ch16admin/pom.xml" />
+        <option value="$PROJECT_DIR$/ch21email/pom.xml" />
+        <option value="$PROJECT_DIR$/musicStore/pom.xml" />
+        <option value="$PROJECT_DIR$/ch21message/pom.xml" />
+        <option value="$PROJECT_DIR$/ch07download/pom.xml" />
+        <option value="$PROJECT_DIR$/ch17password/pom.xml" />
+        <option value="$PROJECT_DIR$/ch20download/pom.xml" />
+        <option value="$PROJECT_DIR$/ch20security/pom.xml" />
+        <option value="$PROJECT_DIR$/musicStoreJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/ch12sqlGateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="murach@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.38">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.43">
     <root id="1">
       <DefaultCasing>lower/lower</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -1110,9 +1110,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="309" parent="298" name="PRIMARY">
-      <ColNames>DownloadID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>DownloadID</UnderlyingIndexColNames>
     </key>
     <column id="310" parent="299" name="UserID">
       <AutoIncrement>1</AutoIncrement>
@@ -1133,9 +1133,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>4</Position>
     </column>
     <key id="314" parent="299" name="PRIMARY">
-      <ColNames>UserID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>UserID</UnderlyingIndexColNames>
     </key>
     <column id="315" parent="300" name="Username">
       <DataType>varchar(15)|0s</DataType>
@@ -1148,9 +1148,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>2</Position>
     </column>
     <key id="317" parent="300" name="PRIMARY">
-      <ColNames>Username</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>Username</UnderlyingIndexColNames>
     </key>
     <column id="318" parent="301" name="Username">
       <DataType>varchar(15)|0s</DataType>
@@ -1163,10 +1163,10 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>2</Position>
     </column>
     <key id="320" parent="301" name="PRIMARY">
-      <ColNames>Username
-Rolename</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>Username
+Rolename</UnderlyingIndexColNames>
     </key>
   </database-model>
 </dataSource>

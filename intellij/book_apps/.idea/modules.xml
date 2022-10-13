@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/book_apps.iml" filepath="$PROJECT_DIR$/.idea/book_apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch02email/ch02email.iml" filepath="$PROJECT_DIR$/ch02email/ch02email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch04email/ch04email.iml" filepath="$PROJECT_DIR$/ch04email/ch04email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05email/ch05email.iml" filepath="$PROJECT_DIR$/ch05email/ch05email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch06email/ch06email.iml" filepath="$PROJECT_DIR$/ch06email/ch06email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch07cart/ch07cart.iml" filepath="$PROJECT_DIR$/ch07cart/ch07cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch07download/ch07download.iml" filepath="$PROJECT_DIR$/ch07download/ch07download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch08email/ch08email.iml" filepath="$PROJECT_DIR$/ch08email/ch08email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch09cart/ch09cart.iml" filepath="$PROJECT_DIR$/ch09cart/ch09cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch09email/ch09email.iml" filepath="$PROJECT_DIR$/ch09email/ch09email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch10cart/ch10cart.iml" filepath="$PROJECT_DIR$/ch10cart/ch10cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch10email/ch10email.iml" filepath="$PROJECT_DIR$/ch10email/ch10email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch12email/ch12email.iml" filepath="$PROJECT_DIR$/ch12email/ch12email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch12sqlGateway/ch12sqlGateway.iml" filepath="$PROJECT_DIR$/ch12sqlGateway/ch12sqlGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch13email/ch13email.iml" filepath="$PROJECT_DIR$/ch13email/ch13email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch14email/ch14email.iml" filepath="$PROJECT_DIR$/ch14email/ch14email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch15email/ch15email.iml" filepath="$PROJECT_DIR$/ch15email/ch15email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch16admin/ch16admin.iml" filepath="$PROJECT_DIR$/ch16admin/ch16admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch17password/ch17password.iml" filepath="$PROJECT_DIR$/ch17password/ch17password.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch18http/ch18http.iml" filepath="$PROJECT_DIR$/ch18http/ch18http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch19cart/ch19cart.iml" filepath="$PROJECT_DIR$/ch19cart/ch19cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch20download/ch20download.iml" filepath="$PROJECT_DIR$/ch20download/ch20download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch20security/ch20security.iml" filepath="$PROJECT_DIR$/ch20security/ch20security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch21email/ch21email.iml" filepath="$PROJECT_DIR$/ch21email/ch21email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch21message/ch21message.iml" filepath="$PROJECT_DIR$/ch21message/ch21message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicStore/musicStore.iml" filepath="$PROJECT_DIR$/musicStore/musicStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicStoreJPA/musicStoreJPA.iml" filepath="$PROJECT_DIR$/musicStoreJPA/musicStoreJPA.iml" />
+    </modules>
+  </component>
+</project>

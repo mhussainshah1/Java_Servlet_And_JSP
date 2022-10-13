@@ -5,7 +5,8 @@
               driverClassName="com.mysql.cj.jdbc.Driver" type="javax.sql.DataSource"
               url="jdbc:mysql://localhost:3306/music?autoReconnect=true"
               username="root" password="password"
-              logAbandoned="true" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true" removeAbandonedTimeout="60"
+              logAbandoned="true" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true"
+              removeAbandonedTimeout="60"
               maxTotal="100" maxIdle="30" maxWaitMillis="10000"/>
 
     <!-- the murach database that contains admin usernames and passwords -->
@@ -13,12 +14,17 @@
               driverClassName="com.mysql.cj.jdbc.Driver" type="javax.sql.DataSource"
               url="jdbc:mysql://localhost:3306/murach?autoReconnect=true"
               username="root" password="password"
-              logAbandoned="true" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true" removeAbandonedTimeout="60"
+              logAbandoned="true" removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true"
+              removeAbandonedTimeout="60"
               maxTotal="100" maxIdle="30" maxWaitMillis="10000"/>
 
     <Realm dataSourceName="jdbc/murachDB" localDataSource="true"
            className="org.apache.catalina.realm.DataSourceRealm"
-           userTable="UserPass" userRoleTable="UserRole"
-           userNameCol="Username" roleNameCol="Rolename" userCredCol="Password"
-           debug="99"/>
+           userTable="UserPass"  userNameCol="Username" userCredCol="Password"
+           userRoleTable="UserRole" roleNameCol="Rolename"/>
+
+    <!--    <Realm className="org.apache.catalina.realm.DataSourceRealm"
+               dataSourceName="jdbc/authority"
+               userTable="users" userNameCol="user_name" userCredCol="user_pass"
+               userRoleTable="user_roles" roleNameCol="role_name"/>-->
 </Context>

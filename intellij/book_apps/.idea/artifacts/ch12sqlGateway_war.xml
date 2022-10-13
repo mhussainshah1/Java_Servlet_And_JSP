@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch12sqlGateway:war">
+    <output-path>$PROJECT_DIR$/ch12sqlGateway/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch12sqlGateway</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ch12sqlGateway-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ch12sqlGateway:war exploded" />
+    </root>
+  </artifact>
+</component>
