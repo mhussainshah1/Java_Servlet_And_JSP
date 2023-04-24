@@ -12,7 +12,7 @@
     <properties>
         <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.source>17</maven.compiler.source>
-        <junit.version>5.8.2</junit.version>
+        <junit.version>5.9.2</junit.version>
     </properties>
 
     <dependencies>
@@ -20,14 +20,14 @@
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>jakarta.faces</artifactId>
-            <version>4.0.0-M1</version>
+            <version>4.0.1</version>
         </dependency>
 
         <!--CDI Implementation in Tomcat 10 -->
         <dependency>
             <groupId>org.jboss.weld.servlet</groupId>
             <artifactId>weld-servlet-shaded</artifactId>
-            <version>5.0.0.Final</version>
+            <version>5.1.0.Final</version>
         </dependency>
 
         <dependency>

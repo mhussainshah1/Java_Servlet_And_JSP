@@ -39,7 +39,7 @@ public class MailUtilGmail {
         // 4 - send the message
         Transport transport = session.getTransport();
 //        transport.connect("johnsmith@gmail.com", "sesame");
-        transport.connect("mhussainshah79@gmail.com", "yywlcgkiishbdymu");//useremail and app password
+        transport.connect("mhussainshah79@gmail.com", "yywlcgkiishbdymu");//user email and app password
         transport.sendMessage(message, message.getAllRecipients());
         transport.close();
     }
