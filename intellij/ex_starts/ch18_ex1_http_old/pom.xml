@@ -31,12 +31,12 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.28</version>
+            <version>8.0.32</version>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-dbcp</artifactId>
-            <version>10.0.18</version>
+            <version>10.0.20</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -62,7 +62,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>
+                <version>3.3.2</version>
             </plugin>
         </plugins>
     </build>

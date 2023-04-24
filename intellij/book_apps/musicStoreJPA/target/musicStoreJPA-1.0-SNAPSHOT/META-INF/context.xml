@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/musicStoreJPA">
     <!-- the murach database that contains admin usernames and passwords -->
-    <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true"
-              maxActive="100" maxIdle="30" maxWait="10000"
+    <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver"
+              maxTotal="100" maxIdle="30" maxWaitMillis="10000"
               name="jdbc/murachDB"
               password="password"
               removeAbandoned="true" removeAbandonedTimeout="60"
