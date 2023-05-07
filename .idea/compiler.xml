@@ -26,8 +26,8 @@
         <module name="ch07_ex1_download_sol" />
         <module name="ch10_ex1_email_sol" />
         <module name="ch13_ex2_userAdmin" />
-        <module name="ch05_ex2_email" />
         <module name="ch21_ex1_email_sol" />
+        <module name="ch05_ex2_email" />
         <module name="ch06_ex1_email" />
         <module name="ch18_ex1_http_old" />
         <module name="ch17_ex1_password" />
@@ -35,10 +35,10 @@
         <module name="ch12_ex1_sqlGateway" />
         <module name="ch07_ex3_cart_sol" />
         <module name="ch19_ex1_cart" />
-        <module name="ch05_ex1_email" />
         <module name="ch08_ex1_email_sol" />
-        <module name="ch07_ex3_cart" />
+        <module name="ch05_ex1_email" />
         <module name="ch04_ex1_survey" />
+        <module name="ch07_ex3_cart" />
         <module name="ch15email" />
         <module name="ch16_ex1_admin" />
         <module name="ch07_ex1_download" />
@@ -46,20 +46,20 @@
         <module name="ch09_ex1_download" />
         <module name="ch13_ex1_email" />
         <module name="ch12_ex2_userAdmin_sol" />
-        <module name="ch18http" />
         <module name="ch14email" />
+        <module name="ch18http" />
         <module name="ch06email" />
         <module name="ch21_ex1_email" />
         <module name="ch12_ex2_userAdmin" />
-        <module name="ch20_ex1_download_sol" />
         <module name="ch07_ex2_download_sol" />
+        <module name="ch20_ex1_download_sol" />
         <module name="ch10_ex2_cart" />
         <module name="ch10_ex1_email" />
         <module name="ch08email" />
         <module name="ch13_ex2_userAdmin_sol" />
         <module name="ch02email" />
-        <module name="ch07_ex2_download" />
         <module name="musicStore" />
+        <module name="ch07_ex2_download" />
         <module name="ch19cart" />
         <module name="ch10cart" />
         <module name="ch16admin" />
@@ -71,14 +71,14 @@
         <module name="ch06_ex2_survey" />
         <module name="ch14_ex1_email" />
         <module name="ch20security" />
-        <module name="ch08_ex1_email" />
         <module name="ch06_ex1_email_sol" />
+        <module name="ch08_ex1_email" />
         <module name="ch10_ex2_cart_sol" />
         <module name="ch05email" />
         <module name="ch09_ex1_download_sol" />
+        <module name="ch13email" />
         <module name="ch19_ex1_cart_sol" />
         <module name="ch20_ex1_download" />
-        <module name="ch13email" />
         <module name="musicStoreJPA" />
       </profile>
     </annotationProcessing>

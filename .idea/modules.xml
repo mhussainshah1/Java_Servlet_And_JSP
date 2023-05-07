@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch06email/ch06email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch06email/ch06email.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch07_ex3_cart/ch07_ex3_cart.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch07_ex3_cart/ch07_ex3_cart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch08email/ch08email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch08email/ch08email.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch10_ex1_email/ch10_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch10_ex1_email/ch10_ex1_email.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch10_ex1_email_sol/ch10_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch10_ex1_email_sol/ch10_ex1_email_sol.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/ch10_ex2_cart.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch10_ex2_cart/ch10_ex2_cart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch10_ex2_cart_sol/ch10_ex2_cart_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch10_ex2_cart_sol/ch10_ex2_cart_sol.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch10cart/ch10cart.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch10cart/ch10cart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch10email/ch10email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch10email/ch10email.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch13_ex1_email/ch13_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch13_ex1_email/ch13_ex1_email.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch13_ex1_email_sol/ch13_ex1_email_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex1_email_sol/ch13_ex1_email_sol.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/ch13_ex2_userAdmin.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch13_ex2_userAdmin/ch13_ex2_userAdmin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/ch13_ex2_userAdmin_sol.iml" filepath="$PROJECT_DIR$/intellij/ex_solutions/ch13_ex2_userAdmin_sol/ch13_ex2_userAdmin_sol.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch13email/ch13email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch13email/ch13email.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/ex_starts/ch21_ex1_email/ch21_ex1_email.iml" filepath="$PROJECT_DIR$/intellij/ex_starts/ch21_ex1_email/ch21_ex1_email.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/ch21email/ch21email.iml" filepath="$PROJECT_DIR$/intellij/book_apps/ch21email/ch21email.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/murach.iml" filepath="$PROJECT_DIR$/.idea/murach.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intellij/book_apps/musicStoreJPA/musicStoreJPA.iml" filepath="$PROJECT_DIR$/intellij/book_apps/musicStoreJPA/musicStoreJPA.iml" />
     </modules>
   </component>
 </project>
